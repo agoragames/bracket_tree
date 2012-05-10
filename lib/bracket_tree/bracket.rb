@@ -49,6 +49,10 @@ module BracketTree
       in_order(@root, block)
     end
 
+    def to_h
+      @root.to_h
+    end
+
     def nodes
       to_a.sort_by { |node| @insertion_order.index(node.position) }
     end

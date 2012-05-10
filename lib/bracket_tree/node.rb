@@ -9,6 +9,14 @@ module BracketTree
 
     def method_missing(sym, *args, &block)
       @payload.send sym, *args, &block
-  end
+    end
+
+    def to_h
+      {
+        payload: @payload,
+        left: @left ? @left.to_h : nil,
+        right: @right ? @right.to_h : nil
+      }
+    end
   end
 end
