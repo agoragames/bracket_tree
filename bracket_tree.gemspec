@@ -7,8 +7,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Andrew Nordman"]
   s.email       = ["cadwallion@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Binary Tree-based bracketing system}
+  s.description = %q{Binary Tree-base bracketing system}
 
   s.rubyforge_project = "bracket_tree"
 
