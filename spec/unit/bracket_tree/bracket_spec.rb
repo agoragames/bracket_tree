@@ -104,4 +104,25 @@ describe BracketTree::Bracket do
       bracket.root.right.payload.should == { baz: 'baz' }
     end
   end
+
+  describe '#seed' do
+    let(:bracket) { BracketTree::Template::SingleElimination.by_size(4).generate_blank_bracket }
+    let(:players) do
+      [
+        { name: 'player4' },
+        { name: 'player1' },
+        { name: 'player3' },
+        { name: 'player2' }
+      ]
+    end
+
+    it 'should place the players in the bracket by seed order' do
+      bracket.seed players
+
+      bracket.find { |n| n.position == 1 }.payload.should == { name: 'player4' }
+      bracket.find { |n| n.position == 3 }.payload.should == { name: 'player1' }
+      bracket.find { |n| n.position == 5 }.payload.should == { name: 'player3' }
+      bracket.find { |n| n.position == 7 }.payload.should == { name: 'player2' }
+    end
+  end
 end

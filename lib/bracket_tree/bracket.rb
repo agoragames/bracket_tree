@@ -55,6 +55,24 @@ module BracketTree
       end
     end
 
+    # Seeds bracket based on `seed_order` value of bracket.  Provide an iterator
+    # with players that will be inserted in the appropriate location.  Will raise a
+    # SeedLimitExceededError if too many players are sent, and a NoSeedOrderError if
+    # the `seed_order` attribute is nil
+    #
+    # @param [Enumerable] players - players to be seeded
+    def seed players
+      if @seed_order.nil?
+        raise NoSeedOrderError, 'Bracket does not have a seed order.'
+      elsif players.size > @seed_order.size
+        raise SeedLimitExceededError, 'cannot seed more players than seed order list.'
+      else
+        @seed_order.each do |position|
+          replace position, players.shift
+        end
+      end
+    end
+
     # This needs refactoring. Inconsistent interface
     def add_winner winner
       @root.payload.seed_value = winner.seed_position
