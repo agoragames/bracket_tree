@@ -64,6 +64,8 @@ module BracketTree
           bracket.add position, {}
         end
 
+        bracket.seed_order = @starting_seats
+
         bracket
       end
       

@@ -1,68 +1,70 @@
 require 'spec_helper'
 
 describe BracketTree::Bracket do
+  let(:bracket) { BracketTree::Bracket.new }
+
   describe '#add' do
     let(:root_payload) { { bar: 'bar' } }
     let(:payload) { { foo: 'foo' } }
 
     context 'no nodes present' do
       before do
-        subject.root.should be_nil
-        subject.add 4, root_payload
+        bracket.root.should be_nil
+        bracket.add 4, root_payload
       end
 
       it 'should create a new Node at root' do
-        subject.root.should be_a_kind_of BracketTree::Node
+        bracket.root.should be_a_kind_of BracketTree::Node
       end
 
       it 'should set the payload of the new node to the passed object' do
-        subject.root.payload.should == root_payload
+        bracket.root.payload.should == root_payload
       end
 
       it 'should set the position of the root node to the passed position' do
-        subject.root.position.should == 4
+        bracket.root.position.should == 4
       end
     end
 
     context 'root node present' do
       before do
-        subject.add 4, root_payload
-        subject.add 2, payload
+        bracket.add 4, root_payload
+        bracket.add 2, payload
       end
 
       it 'should add a node to the left position of root' do
-        subject.root.left.should be_a_kind_of BracketTree::Node
+        bracket.root.left.should be_a_kind_of BracketTree::Node
       end
 
       it 'should have the payload of the new node' do
-        subject.root.left.payload.should == payload
+        bracket.root.left.payload.should == payload
       end
 
       it 'should have the position of the new node' do
-        subject.root.left.position.should == 2
+        bracket.root.left.position.should == 2
       end
     end
 
     context 'two nodes present' do
       let(:new_payload) { { baz: 'baz' } }
       before do
-        subject.add 4, root_payload
-        subject.add 2, payload
+        bracket.add 4, root_payload
+        bracket.add 2, payload
 
-        subject.root.left.right.should be_nil
-        subject.add 3, new_payload
+        bracket.root.left.right.should be_nil
+        bracket.add 3, new_payload
       end
 
       it 'should add the new node to the left node right' do
-        subject.root.left.right.should be_a_kind_of BracketTree::Node
+        bracket.root.left.right.should be_a_kind_of BracketTree::Node
       end
 
       it 'should add the payload of the new node' do
-        subject.root.left.right.payload.should == new_payload
+        bracket.root.left.right.payload.should == new_payload
       end
 
       it 'should add the position of the new node' do
-        subject.root.left.right.position.should == 3
+        bracket.root.left.right.position.should == 3
       end
     end
   end
@@ -73,17 +75,33 @@ describe BracketTree::Bracket do
     let(:payload3) { { baz: 'baz' } }
 
     before do
-      subject.add 4, payload1
-      subject.add 2, payload2
-      subject.add 3, payload3
+      bracket.add 4, payload1
+      bracket.add 2, payload2
+      bracket.add 3, payload3
     end
 
     it 'should return 3 node objects' do
-      subject.nodes.should have(3).nodes
+      bracket.nodes.should have(3).nodes
     end
 
     it 'should return them in insertion order' do
-      subject.nodes.map { |n| n.position }.should == [4,2,3]
+      bracket.nodes.map { |n| n.position }.should == [4,2,3]
+    end
+  end
+
+  describe '#replace' do
+    before do
+      bracket.add 3, { foo: 'foo' }
+      bracket.add 2, { bar: 'bar' }
+      bracket.add 4, { baz: 'baz' }
+    end
+
+    it 'replaces the payload at a given position with new payload' do
+      bracket.replace 3, { winner: 'me' }
+
+      bracket.root.payload.should == { winner: 'me' }
+      bracket.root.left.payload.should == { bar: 'bar' }
+      bracket.root.right.payload.should == { baz: 'baz' }
     end
   end
 end

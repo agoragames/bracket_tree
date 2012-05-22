@@ -3,7 +3,7 @@ require 'bracket_tree/node'
 module BracketTree
   class Bracket
     include Enumerable
-    attr_accessor :root, :insertion_order
+    attr_accessor :root, :seed_order, :insertion_order
     
     def initialize
       @insertion_order = []
@@ -39,11 +39,25 @@ module BracketTree
       end
     end
 
+    def replace position, payload
+      node = find { |n| n.position == position }
+      if node
+        node.payload = payload
+        true
+      else
+        nil
+      end
+    end
+
     # This needs refactoring. Inconsistent interface
     def add_winner winner
       @root.payload.seed_value = winner.seed_position
       @root.payload.race = winner.race
       @root.payload.player = winner.user.login
+    end
+
+    def winner
+      @root.payload
     end
 
     def each(&block)
