@@ -124,5 +124,16 @@ describe BracketTree::Bracket do
       bracket.find { |n| n.position == 5 }.payload.should == { name: 'player3' }
       bracket.find { |n| n.position == 7 }.payload.should == { name: 'player2' }
     end
+
+    it 'should raise a NoSeedOrderError if seed order is not present in bracket' do
+      bracket.seed_order = nil
+
+      expect { bracket.seed players }.to raise_error(BracketTree::Bracket::NoSeedOrderError)
+    end
+
+    it 'should raise a SeedLimitExceededError if player count exceeds seed count' do
+      players << { name: 'player5' }
+      expect { bracket.seed players }.to raise_error(BracketTree::Bracket::SeedLimitExceededError)
+    end
   end
 end

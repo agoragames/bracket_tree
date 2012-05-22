@@ -2,6 +2,9 @@ require 'bracket_tree/node'
 
 module BracketTree
   class Bracket
+    class NoSeedOrderError < Exception ; end
+    class SeedLimitExceededError < Exception ; end
+
     include Enumerable
     attr_accessor :root, :seed_order, :insertion_order
     
