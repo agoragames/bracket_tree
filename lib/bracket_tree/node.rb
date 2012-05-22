@@ -13,6 +13,7 @@ module BracketTree
 
     def to_h
       {
+        position: @position,
         payload: @payload,
         left: @left ? @left.to_h : nil,
         right: @right ? @right.to_h : nil
