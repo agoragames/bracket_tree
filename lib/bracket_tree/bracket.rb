@@ -39,6 +39,12 @@ module BracketTree
       end
     end
 
+    # Replaces the data at a given node position with new payload. This is useful
+    # for updating bracket data, replacing placeholders with actual data, seeding,
+    # etc..
+    #
+    # @param [Fixnum] position - the node position to replace
+    # @param payload - the new payload object to replace
     def replace position, payload
       node = find { |n| n.position == position }
       if node
