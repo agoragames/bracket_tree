@@ -69,23 +69,15 @@ describe BracketTree::Bracket do
     end
   end
 
-  describe '#nodes' do
-    let(:payload1) { { foo: 'foo' } }
-    let(:payload2) { { bar: 'bar' } }
-    let(:payload3) { { baz: 'baz' } }
+  describe '#seats' do
+    let(:bracket) { BracketTree::Template::SingleElimination.by_size(4).generate_blank_bracket }
 
-    before do
-      bracket.add 4, payload1
-      bracket.add 2, payload2
-      bracket.add 3, payload3
-    end
-
-    it 'should return 3 node objects' do
-      bracket.nodes.should have(3).nodes
+    it 'should return 7 seats' do
+      bracket.seats.should have(7).seats
     end
 
     it 'should return them in insertion order' do
-      bracket.nodes.map { |n| n.position }.should == [4,2,3]
+      bracket.seats.map { |n| n.position }.should == bracket.insertion_order
     end
   end
 
@@ -156,20 +148,6 @@ describe BracketTree::Bracket do
     it 'should raise a SeedLimitExceededError if player count exceeds seed count' do
       players << { name: 'player5' }
       expect { bracket.seed players }.to raise_error(BracketTree::Bracket::SeedLimitExceededError)
-    end
-  end
-
-  describe '#nodes' do
-    let(:bracket) { BracketTree::Template::SingleElimination.by_size(4).generate_blank_bracket }
-
-    it 'should return an array of nodes based on insertion order' do
-      bracket.nodes.should be_a Array
-      bracket.nodes.map { |n| n.position }.should == bracket.insertion_order
-    end
-
-    it 'returns an empty array when no nodes are present' do
-      bracket = BracketTree::Bracket.new
-      bracket.nodes.should == []
     end
   end
 end

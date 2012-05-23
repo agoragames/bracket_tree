@@ -93,12 +93,16 @@ module BracketTree
       @root.to_h
     end
 
-    # returns an array of nodes based on insertion_order
-    def to_a
+    # Array of Seats mapping to the individual positions of the bracket tree. The
+    # order of the nodes is important, as insertion in this order maintains the
+    # binary tree
+    #
+    # @return Array seats
+    def seats
       entries.sort_by { |node| @insertion_order.index(node.position) }
     end
 
-    alias_method :nodes, :to_a
+    alias_method :to_a, :seats
 
     def at position
       find { |n| n.position == position }

@@ -63,7 +63,7 @@ describe BracketTree::Template::Base do
 
       bracket.should be_a BracketTree::Bracket
       bracket.size.should == 7
-      bracket.nodes.map { |n| n.payload }.should == [{}, {}, {}, {}, {}, {}, {}]
+      bracket.to_a.map { |n| n.payload }.should == [{}, {}, {}, {}, {}, {}, {}]
     end
   end
 end
