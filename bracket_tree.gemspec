@@ -6,9 +6,9 @@ Gem::Specification.new do |s|
   s.version     = '0.0.1'
   s.authors     = ["Andrew Nordman"]
   s.email       = ["cadwallion@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/agoragames/bracket_tree"
   s.summary     = %q{Binary Tree-based bracketing system}
-  s.description = %q{Binary Tree-base bracketing system}
+  s.description = %q{Binary Tree-based bracketing system}
 
   s.rubyforge_project = "bracket_tree"
 
