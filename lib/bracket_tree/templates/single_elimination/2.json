@@ -1,11 +1,11 @@
 {
   "matches":[
-    { "seats":[1,3], "winnerTo":null, "loserTo":null } 
+    { "seats":[1,3], "winner_to":null, "loser_to":null } 
   ],
   "seats":[
     { "position": 2 },
     { "position": 1 },
     { "position": 3 }
   ],
-  "startingSeats":[1,3]
+  "starting_seats":[1,3]
 }

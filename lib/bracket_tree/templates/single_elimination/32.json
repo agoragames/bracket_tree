@@ -5,248 +5,248 @@
         1,
         3
       ],
-      "winnerTo": 2,
-      "loserTo": null
+      "winner_to": 2,
+      "loser_to": null
     },
     {
       "seats": [
         5,
         7
       ],
-      "winnerTo": 6,
-      "loserTo": null
+      "winner_to": 6,
+      "loser_to": null
     },
     {
       "seats": [
         9,
         11
       ],
-      "winnerTo": 10,
-      "loserTo": null
+      "winner_to": 10,
+      "loser_to": null
     },
     {
       "seats": [
         13,
         15
       ],
-      "winnerTo": 14,
-      "loserTo": null
+      "winner_to": 14,
+      "loser_to": null
     },
     {
       "seats": [
         17,
         19
       ],
-      "winnerTo": 18,
-      "loserTo": null
+      "winner_to": 18,
+      "loser_to": null
     },
     {
       "seats": [
         21,
         23
       ],
-      "winnerTo": 22,
-      "loserTo": null
+      "winner_to": 22,
+      "loser_to": null
     },
     {
       "seats": [
         25,
         27
       ],
-      "winnerTo": 26,
-      "loserTo": null
+      "winner_to": 26,
+      "loser_to": null
     },
     {
       "seats": [
         29,
         31
       ],
-      "winnerTo": 30,
-      "loserTo": null
+      "winner_to": 30,
+      "loser_to": null
     },
     {
       "seats": [
         33,
         35
       ],
-      "winnerTo": 34,
-      "loserTo": null
+      "winner_to": 34,
+      "loser_to": null
     },
     {
       "seats": [
         37,
         39
       ],
-      "winnerTo": 38,
-      "loserTo": null
+      "winner_to": 38,
+      "loser_to": null
     },
     {
       "seats": [
         41,
         43
       ],
-      "winnerTo": 42,
-      "loserTo": null
+      "winner_to": 42,
+      "loser_to": null
     },
     {
       "seats": [
         45,
         47
       ],
-      "winnerTo": 46,
-      "loserTo": null
+      "winner_to": 46,
+      "loser_to": null
     },
     {
       "seats": [
         49,
         51
       ],
-      "winnerTo": 50,
-      "loserTo": null
+      "winner_to": 50,
+      "loser_to": null
     },
     {
       "seats": [
         53,
         55
       ],
-      "winnerTo": 54,
-      "loserTo": null
+      "winner_to": 54,
+      "loser_to": null
     },
     {
       "seats": [
         57,
         59
       ],
-      "winnerTo": 58,
-      "loserTo": null
+      "winner_to": 58,
+      "loser_to": null
     },
     {
       "seats": [
         61,
         63
       ],
-      "winnerTo": 62,
-      "loserTo": null
+      "winner_to": 62,
+      "loser_to": null
     },
     {
       "seats": [
         2,
         6
       ],
-      "winnerTo": 4,
-      "loserTo": null
+      "winner_to": 4,
+      "loser_to": null
     },
     {
       "seats": [
         10,
         14
       ],
-      "winnerTo": 12,
-      "loserTo": null
+      "winner_to": 12,
+      "loser_to": null
     },
     {
       "seats": [
         18,
         22
       ],
-      "winnerTo": 20,
-      "loserTo": null
+      "winner_to": 20,
+      "loser_to": null
     },
     {
       "seats": [
         26,
         30
       ],
-      "winnerTo": 28,
-      "loserTo": null
+      "winner_to": 28,
+      "loser_to": null
     },
     {
       "seats": [
         34,
         38
       ],
-      "winnerTo": 36,
-      "loserTo": null
+      "winner_to": 36,
+      "loser_to": null
     },
     {
       "seats": [
         42,
         46
       ],
-      "winnerTo": 44,
-      "loserTo": null
+      "winner_to": 44,
+      "loser_to": null
     },
     {
       "seats": [
         50,
         54
       ],
-      "winnerTo": 52,
-      "loserTo": null
+      "winner_to": 52,
+      "loser_to": null
     },
     {
       "seats": [
         58,
         62
       ],
-      "winnerTo": 60,
-      "loserTo": null
+      "winner_to": 60,
+      "loser_to": null
     },
     {
       "seats": [
         4,
         12
       ],
-      "winnerTo": 8,
-      "loserTo": null
+      "winner_to": 8,
+      "loser_to": null
     },
     {
       "seats": [
         20,
         28
       ],
-      "winnerTo": 24,
-      "loserTo": null
+      "winner_to": 24,
+      "loser_to": null
     },
     {
       "seats": [
         36,
         44
       ],
-      "winnerTo": 40,
-      "loserTo": null
+      "winner_to": 40,
+      "loser_to": null
     },
     {
       "seats": [
         52,
         60
       ],
-      "winnerTo": 56,
-      "loserTo": null
+      "winner_to": 56,
+      "loser_to": null
     },
     {
       "seats": [
         8,
         24
       ],
-      "winnerTo": 16,
-      "loserTo": null
+      "winner_to": 16,
+      "loser_to": null
     },
     {
       "seats": [
         40,
         56
       ],
-      "winnerTo": 48,
-      "loserTo": null
+      "winner_to": 48,
+      "loser_to": null
     },
     {
       "seats": [
         16,
         48
       ],
-      "winnerTo": null,
-      "loserTo": null
+      "winner_to": null,
+      "loser_to": null
     }
   ],
   "seats": [
@@ -314,7 +314,7 @@
     { "position": 61 },
     { "position": 63 }
   ],
-  "startingSeats": [
+  "starting_seats": [
     1,
     3,
     5,

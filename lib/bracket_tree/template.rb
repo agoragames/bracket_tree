@@ -11,7 +11,7 @@ module BracketTree
           filename = File.join location, "#{size}.json"
 
           if File.exists? filename
-            from_json JSON.parse File.read filename
+            from_json JSON.parse(File.read(filename), symbolize_names: true)
           else
             return nil
           end
@@ -23,16 +23,16 @@ module BracketTree
         # @return [BracketTree::Template]
         def from_json json
           template = new
-          if json['seats']
-            template.seats = json['seats'].map { |s| s['position'] }
+          if json[:seats]
+            template.seats = json[:seats].map { |s| s[:position] }
           end
 
-          if json['startingSeats']
-            template.starting_seats = json['startingSeats']
+          if json[:starting_seats]
+            template.starting_seats = json[:starting_seats]
           end
 
-          if json['matches']
-            template.matches = json['matches']
+          if json[:matches]
+            template.matches = json[:matches]
           end
 
           template
@@ -58,7 +58,7 @@ module BracketTree
       #
       # @return [BracketTree::Bracket] bracket
       def generate_blank_bracket
-        bracket = Bracket.new
+        bracket = Bracket.new matches: @matches
 
         @seats.each do |position|
           bracket.add position, {}
@@ -74,9 +74,9 @@ module BracketTree
       # @return [Hash] template
       def to_h
         {
-          'seats' => @seats.map { |s| { 'position' => s } },
-          'startingSeats' => @starting_seats,
-          'matches' => @matches
+          seats: @seats.map { |s| { position: s } },
+          starting_seats: @starting_seats,
+          matches: @matches
         }
       end
     end

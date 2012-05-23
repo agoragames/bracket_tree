@@ -9,17 +9,17 @@ end
 describe BracketTree::Template::Base do
   def template_json
     {
-      'startingSeats' => [1,3,5,7],
-      'seats' => [
-        { 'position' => 4 },
-        { 'position' => 2 },
-        { 'position' => 6 },
-        { 'position' => 1 },
-        { 'position' => 3 },
-        { 'position' => 5 },
-        { 'position' => 7 }
+      starting_seats: [1,3,5,7],
+      seats: [
+        { position: 4 },
+        { position: 2 },
+        { position: 6 },
+        { position: 1 },
+        { position: 3 },
+        { position: 5 },
+        { position: 7 }
       ],
-      'matches' => []
+      matches: []
     }
   end
 
@@ -64,6 +64,15 @@ describe BracketTree::Template::Base do
       bracket.should be_a BracketTree::Bracket
       bracket.size.should == 7
       bracket.to_a.map { |n| n.payload }.should == [{}, {}, {}, {}, {}, {}, {}]
+    end
+
+    it 'should populate the matches from the template' do
+      template = TestTemplate.by_size 4
+      bracket = template.generate_blank_bracket
+
+      bracket.matches.should be_a Array
+      bracket.matches[0].should be_a BracketTree::Match
+      bracket.matches[0].to_h.should == template.matches[0]
     end
   end
 end

@@ -1,11 +1,11 @@
 {
   "matches":[
-    { "seats":[1,3], "winnerTo":2, "loserTo":11 },
-    { "seats":[5,7], "winnerTo":6, "loserTo":13 },
-    { "seats":[2,6], "winnerTo":4, "loserTo":9 },
-    { "seats":[11,13], "winnerTo":12, "loserTo":null },
-    { "seats":[9,12], "winnerTo":10, "loserTo":null },
-    { "seats":[4,10], "winnerTo":null, "loserTo":null }
+    { "seats":[1,3], "winner_to":2, "loser_to":11 },
+    { "seats":[5,7], "winner_to":6, "loser_to":13 },
+    { "seats":[2,6], "winner_to":4, "loser_to":9 },
+    { "seats":[11,13], "winner_to":12, "loser_to":null },
+    { "seats":[9,12], "winner_to":10, "loser_to":null },
+    { "seats":[4,10], "winner_to":null, "loser_to":null }
   ],
   "seats":[
     { "position": 8 },
@@ -22,5 +22,5 @@
     { "position": 1 },
     { "position": 3 }
   ],
-  "startingSeats":[1,3,5,7]
+  "starting_seats":[1,3,5,7]
 }

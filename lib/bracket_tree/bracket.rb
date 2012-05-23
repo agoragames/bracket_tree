@@ -6,12 +6,17 @@ module BracketTree
     class SeedLimitExceededError < Exception ; end
 
     include Enumerable
-    attr_accessor :root, :seed_order, :insertion_order
+    attr_accessor :root, :seed_order, :matches, :insertion_order
 
     def initialize options = {}
       @insertion_order = []
+      @matches = []
 
-      @matches = options[:matches] || []
+      if options[:matches]
+        options[:matches].each do |m|
+          @matches << Match.new(m)
+        end
+      end
     end
 
     # Adds a Node at the given position, setting the data as the payload. Maps to
@@ -111,6 +116,24 @@ module BracketTree
     end
 
     alias_method :size, :count
+
+    # Progresses the bracket by using the stored `matches` to copy data to the winning
+    # and losing seats.  This facilitates match progression without manually
+    # manipulating bracket positions
+    #
+    # @param Fixnum seat - winning seat position
+    def match_winner seat
+      match = @matches.find { |m| m.include? seat }
+      losing_seat = match.seats.find { |s| s != seat }
+
+      if match.winner_to
+        self.replace match.winner_to, seats.at(seat).payload
+      end
+
+      if match.loser_to
+        self.replace match.loser_to, seats.at(losing_seat).payload
+      end
+    end
 
     def in_order(node, block)
       if node

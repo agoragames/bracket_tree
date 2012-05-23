@@ -2,6 +2,24 @@ require 'spec_helper'
 
 describe BracketTree::Bracket do
   let(:bracket) { BracketTree::Bracket.new }
+  describe '#initialize' do
+    it 'should create an array of Match objects if matches are passed' do
+      matches = [
+        { seats: [1,3], winner_to: 2, loser_to: nil },
+        { seats: [5,7], winner_to: 4, loser_to: nil },
+        { seats: [2,4], winner_to: 6, loser_to: nil }
+      ]
+      bracket = BracketTree::Bracket.new matches: matches
+
+      bracket.matches.should be_a Array
+      bracket.matches.map(&:class).should == [BracketTree::Match, BracketTree::Match, BracketTree::Match]
+    end
+    
+    it 'should create an empty if matches are not passed' do
+      bracket.matches.should be_a Array
+      bracket.matches.should == []
+    end
+  end
 
   describe '#add' do
     let(:root_payload) { { bar: 'bar' } }
@@ -148,6 +166,15 @@ describe BracketTree::Bracket do
     it 'should raise a SeedLimitExceededError if player count exceeds seed count' do
       players << { name: 'player5' }
       expect { bracket.seed players }.to raise_error(BracketTree::Bracket::SeedLimitExceededError)
+    end
+  end
+
+  describe '#match_winner' do
+    let(:bracket) { BracketTree::Template::DoubleElimination.by_size(4).generate_blank_bracket }
+
+    it 'copies the seat data to the seat specified in the match winner_to' do
+      bracket.match_winner 1
+      bracket.at(2).payload.should == bracket.at(11).payload
     end
   end
 end
