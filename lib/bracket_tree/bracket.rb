@@ -76,13 +76,6 @@ module BracketTree
       end
     end
 
-    # This needs refactoring. Inconsistent interface
-    def add_winner winner
-      @root.payload.seed_value = winner.seed_position
-      @root.payload.race = winner.race
-      @root.payload.player = winner.user.login
-    end
-
     def winner
       @root.payload
     end
