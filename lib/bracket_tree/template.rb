@@ -31,8 +31,8 @@ module BracketTree
             template.starting_seats = json['startingSeats']
           end
 
-          if json['nodes']
-            template.nodes = json['nodes']
+          if json['matches']
+            template.matches = json['matches']
           end
 
           template
@@ -45,12 +45,12 @@ module BracketTree
         end
       end
 
-      attr_accessor :seats, :starting_seats, :nodes
+      attr_accessor :seats, :starting_seats, :matches
 
       def initialize
         @seats = []
         @starting_seats = []
-        @nodes = []
+        @matches = []
       end
 
       # Generates a Bracket object with placeholder empty hashes for each Seat in the
@@ -76,7 +76,7 @@ module BracketTree
         {
           'seats' => @seats.map { |s| { 'position' => s } },
           'startingSeats' => @starting_seats,
-          'nodes' => @nodes
+          'matches' => @matches
         }
       end
     end

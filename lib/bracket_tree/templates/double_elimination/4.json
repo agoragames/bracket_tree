@@ -1,5 +1,5 @@
 {
-  "nodes":[
+  "matches":[
     { "seats":[1,3], "winnerTo":2, "loserTo":11 },
     { "seats":[5,7], "winnerTo":6, "loserTo":13 },
     { "seats":[2,6], "winnerTo":4, "loserTo":9 },

@@ -1,0 +1,3695 @@
+{
+  "matches": [
+    {
+      "seats": [
+        1,
+        3
+      ],
+      "winnerTo": 2,
+      "loserTo": 269
+    },
+    {
+      "seats": [
+        5,
+        7
+      ],
+      "winnerTo": 6,
+      "loserTo": 271
+    },
+    {
+      "seats": [
+        9,
+        11
+      ],
+      "winnerTo": 10,
+      "loserTo": 275
+    },
+    {
+      "seats": [
+        13,
+        15
+      ],
+      "winnerTo": 14,
+      "loserTo": 277
+    },
+    {
+      "seats": [
+        17,
+        19
+      ],
+      "winnerTo": 18,
+      "loserTo": 283
+    },
+    {
+      "seats": [
+        21,
+        23
+      ],
+      "winnerTo": 22,
+      "loserTo": 285
+    },
+    {
+      "seats": [
+        25,
+        27
+      ],
+      "winnerTo": 26,
+      "loserTo": 289
+    },
+    {
+      "seats": [
+        29,
+        31
+      ],
+      "winnerTo": 30,
+      "loserTo": 291
+    },
+    {
+      "seats": [
+        33,
+        35
+      ],
+      "winnerTo": 34,
+      "loserTo": 299
+    },
+    {
+      "seats": [
+        37,
+        39
+      ],
+      "winnerTo": 38,
+      "loserTo": 301
+    },
+    {
+      "seats": [
+        41,
+        43
+      ],
+      "winnerTo": 42,
+      "loserTo": 305
+    },
+    {
+      "seats": [
+        45,
+        47
+      ],
+      "winnerTo": 46,
+      "loserTo": 307
+    },
+    {
+      "seats": [
+        49,
+        51
+      ],
+      "winnerTo": 50,
+      "loserTo": 313
+    },
+    {
+      "seats": [
+        53,
+        55
+      ],
+      "winnerTo": 54,
+      "loserTo": 315
+    },
+    {
+      "seats": [
+        57,
+        59
+      ],
+      "winnerTo": 58,
+      "loserTo": 319
+    },
+    {
+      "seats": [
+        61,
+        63
+      ],
+      "winnerTo": 62,
+      "loserTo": 321
+    },
+    {
+      "seats": [
+        65,
+        67
+      ],
+      "winnerTo": 66,
+      "loserTo": 331
+    },
+    {
+      "seats": [
+        69,
+        71
+      ],
+      "winnerTo": 70,
+      "loserTo": 333
+    },
+    {
+      "seats": [
+        73,
+        75
+      ],
+      "winnerTo": 74,
+      "loserTo": 337
+    },
+    {
+      "seats": [
+        77,
+        79
+      ],
+      "winnerTo": 78,
+      "loserTo": 339
+    },
+    {
+      "seats": [
+        81,
+        83
+      ],
+      "winnerTo": 82,
+      "loserTo": 345
+    },
+    {
+      "seats": [
+        85,
+        87
+      ],
+      "winnerTo": 86,
+      "loserTo": 347
+    },
+    {
+      "seats": [
+        89,
+        91
+      ],
+      "winnerTo": 90,
+      "loserTo": 351
+    },
+    {
+      "seats": [
+        93,
+        95
+      ],
+      "winnerTo": 94,
+      "loserTo": 353
+    },
+    {
+      "seats": [
+        97,
+        99
+      ],
+      "winnerTo": 98,
+      "loserTo": 361
+    },
+    {
+      "seats": [
+        101,
+        103
+      ],
+      "winnerTo": 102,
+      "loserTo": 363
+    },
+    {
+      "seats": [
+        105,
+        107
+      ],
+      "winnerTo": 106,
+      "loserTo": 367
+    },
+    {
+      "seats": [
+        109,
+        111
+      ],
+      "winnerTo": 110,
+      "loserTo": 369
+    },
+    {
+      "seats": [
+        113,
+        115
+      ],
+      "winnerTo": 114,
+      "loserTo": 375
+    },
+    {
+      "seats": [
+        117,
+        119
+      ],
+      "winnerTo": 118,
+      "loserTo": 377
+    },
+    {
+      "seats": [
+        121,
+        123
+      ],
+      "winnerTo": 122,
+      "loserTo": 381
+    },
+    {
+      "seats": [
+        125,
+        127
+      ],
+      "winnerTo": 126,
+      "loserTo": 383
+    },
+    {
+      "seats": [
+        129,
+        131
+      ],
+      "winnerTo": 130,
+      "loserTo": 395
+    },
+    {
+      "seats": [
+        133,
+        135
+      ],
+      "winnerTo": 134,
+      "loserTo": 397
+    },
+    {
+      "seats": [
+        137,
+        139
+      ],
+      "winnerTo": 138,
+      "loserTo": 401
+    },
+    {
+      "seats": [
+        141,
+        143
+      ],
+      "winnerTo": 142,
+      "loserTo": 403
+    },
+    {
+      "seats": [
+        145,
+        147
+      ],
+      "winnerTo": 146,
+      "loserTo": 409
+    },
+    {
+      "seats": [
+        149,
+        151
+      ],
+      "winnerTo": 150,
+      "loserTo": 411
+    },
+    {
+      "seats": [
+        153,
+        155
+      ],
+      "winnerTo": 154,
+      "loserTo": 415
+    },
+    {
+      "seats": [
+        157,
+        159
+      ],
+      "winnerTo": 158,
+      "loserTo": 417
+    },
+    {
+      "seats": [
+        161,
+        163
+      ],
+      "winnerTo": 162,
+      "loserTo": 425
+    },
+    {
+      "seats": [
+        165,
+        167
+      ],
+      "winnerTo": 166,
+      "loserTo": 427
+    },
+    {
+      "seats": [
+        169,
+        171
+      ],
+      "winnerTo": 170,
+      "loserTo": 431
+    },
+    {
+      "seats": [
+        173,
+        175
+      ],
+      "winnerTo": 174,
+      "loserTo": 433
+    },
+    {
+      "seats": [
+        177,
+        179
+      ],
+      "winnerTo": 178,
+      "loserTo": 439
+    },
+    {
+      "seats": [
+        181,
+        183
+      ],
+      "winnerTo": 182,
+      "loserTo": 441
+    },
+    {
+      "seats": [
+        185,
+        187
+      ],
+      "winnerTo": 186,
+      "loserTo": 445
+    },
+    {
+      "seats": [
+        189,
+        191
+      ],
+      "winnerTo": 190,
+      "loserTo": 447
+    },
+    {
+      "seats": [
+        193,
+        195
+      ],
+      "winnerTo": 194,
+      "loserTo": 457
+    },
+    {
+      "seats": [
+        197,
+        199
+      ],
+      "winnerTo": 198,
+      "loserTo": 459
+    },
+    {
+      "seats": [
+        201,
+        203
+      ],
+      "winnerTo": 202,
+      "loserTo": 463
+    },
+    {
+      "seats": [
+        205,
+        207
+      ],
+      "winnerTo": 206,
+      "loserTo": 465
+    },
+    {
+      "seats": [
+        209,
+        211
+      ],
+      "winnerTo": 210,
+      "loserTo": 471
+    },
+    {
+      "seats": [
+        213,
+        215
+      ],
+      "winnerTo": 214,
+      "loserTo": 473
+    },
+    {
+      "seats": [
+        217,
+        219
+      ],
+      "winnerTo": 218,
+      "loserTo": 477
+    },
+    {
+      "seats": [
+        221,
+        223
+      ],
+      "winnerTo": 222,
+      "loserTo": 479
+    },
+    {
+      "seats": [
+        225,
+        227
+      ],
+      "winnerTo": 226,
+      "loserTo": 487
+    },
+    {
+      "seats": [
+        229,
+        231
+      ],
+      "winnerTo": 230,
+      "loserTo": 489
+    },
+    {
+      "seats": [
+        233,
+        235
+      ],
+      "winnerTo": 234,
+      "loserTo": 493
+    },
+    {
+      "seats": [
+        237,
+        239
+      ],
+      "winnerTo": 238,
+      "loserTo": 495
+    },
+    {
+      "seats": [
+        241,
+        243
+      ],
+      "winnerTo": 242,
+      "loserTo": 501
+    },
+    {
+      "seats": [
+        245,
+        247
+      ],
+      "winnerTo": 246,
+      "loserTo": 503
+    },
+    {
+      "seats": [
+        249,
+        251
+      ],
+      "winnerTo": 250,
+      "loserTo": 507
+    },
+    {
+      "seats": [
+        253,
+        255
+      ],
+      "winnerTo": 254,
+      "loserTo": 509
+    },
+    {
+      "seats": [
+        2,
+        6
+      ],
+      "winnerTo": 4,
+      "loserTo": 267
+    },
+    {
+      "seats": [
+        10,
+        14
+      ],
+      "winnerTo": 12,
+      "loserTo": 273
+    },
+    {
+      "seats": [
+        18,
+        22
+      ],
+      "winnerTo": 20,
+      "loserTo": 281
+    },
+    {
+      "seats": [
+        26,
+        30
+      ],
+      "winnerTo": 28,
+      "loserTo": 287
+    },
+    {
+      "seats": [
+        34,
+        38
+      ],
+      "winnerTo": 36,
+      "loserTo": 297
+    },
+    {
+      "seats": [
+        42,
+        46
+      ],
+      "winnerTo": 44,
+      "loserTo": 303
+    },
+    {
+      "seats": [
+        50,
+        54
+      ],
+      "winnerTo": 52,
+      "loserTo": 311
+    },
+    {
+      "seats": [
+        58,
+        62
+      ],
+      "winnerTo": 60,
+      "loserTo": 317
+    },
+    {
+      "seats": [
+        66,
+        70
+      ],
+      "winnerTo": 68,
+      "loserTo": 329
+    },
+    {
+      "seats": [
+        74,
+        78
+      ],
+      "winnerTo": 76,
+      "loserTo": 335
+    },
+    {
+      "seats": [
+        82,
+        86
+      ],
+      "winnerTo": 84,
+      "loserTo": 343
+    },
+    {
+      "seats": [
+        90,
+        94
+      ],
+      "winnerTo": 92,
+      "loserTo": 349
+    },
+    {
+      "seats": [
+        98,
+        102
+      ],
+      "winnerTo": 100,
+      "loserTo": 359
+    },
+    {
+      "seats": [
+        106,
+        110
+      ],
+      "winnerTo": 108,
+      "loserTo": 365
+    },
+    {
+      "seats": [
+        114,
+        118
+      ],
+      "winnerTo": 116,
+      "loserTo": 373
+    },
+    {
+      "seats": [
+        122,
+        126
+      ],
+      "winnerTo": 124,
+      "loserTo": 379
+    },
+    {
+      "seats": [
+        130,
+        134
+      ],
+      "winnerTo": 132,
+      "loserTo": 393
+    },
+    {
+      "seats": [
+        138,
+        142
+      ],
+      "winnerTo": 140,
+      "loserTo": 399
+    },
+    {
+      "seats": [
+        146,
+        150
+      ],
+      "winnerTo": 148,
+      "loserTo": 407
+    },
+    {
+      "seats": [
+        154,
+        158
+      ],
+      "winnerTo": 156,
+      "loserTo": 413
+    },
+    {
+      "seats": [
+        162,
+        166
+      ],
+      "winnerTo": 164,
+      "loserTo": 423
+    },
+    {
+      "seats": [
+        170,
+        174
+      ],
+      "winnerTo": 172,
+      "loserTo": 429
+    },
+    {
+      "seats": [
+        178,
+        182
+      ],
+      "winnerTo": 180,
+      "loserTo": 437
+    },
+    {
+      "seats": [
+        186,
+        190
+      ],
+      "winnerTo": 188,
+      "loserTo": 443
+    },
+    {
+      "seats": [
+        194,
+        198
+      ],
+      "winnerTo": 196,
+      "loserTo": 455
+    },
+    {
+      "seats": [
+        202,
+        206
+      ],
+      "winnerTo": 204,
+      "loserTo": 461
+    },
+    {
+      "seats": [
+        210,
+        214
+      ],
+      "winnerTo": 212,
+      "loserTo": 469
+    },
+    {
+      "seats": [
+        218,
+        222
+      ],
+      "winnerTo": 220,
+      "loserTo": 475
+    },
+    {
+      "seats": [
+        226,
+        230
+      ],
+      "winnerTo": 228,
+      "loserTo": 485
+    },
+    {
+      "seats": [
+        234,
+        238
+      ],
+      "winnerTo": 236,
+      "loserTo": 491
+    },
+    {
+      "seats": [
+        242,
+        246
+      ],
+      "winnerTo": 244,
+      "loserTo": 499
+    },
+    {
+      "seats": [
+        250,
+        254
+      ],
+      "winnerTo": 252,
+      "loserTo": 505
+    },
+    {
+      "seats": [
+        4,
+        12
+      ],
+      "winnerTo": 8,
+      "loserTo": 265
+    },
+    {
+      "seats": [
+        20,
+        28
+      ],
+      "winnerTo": 24,
+      "loserTo": 279
+    },
+    {
+      "seats": [
+        36,
+        44
+      ],
+      "winnerTo": 40,
+      "loserTo": 295
+    },
+    {
+      "seats": [
+        52,
+        60
+      ],
+      "winnerTo": 56,
+      "loserTo": 309
+    },
+    {
+      "seats": [
+        68,
+        76
+      ],
+      "winnerTo": 72,
+      "loserTo": 327
+    },
+    {
+      "seats": [
+        84,
+        92
+      ],
+      "winnerTo": 88,
+      "loserTo": 341
+    },
+    {
+      "seats": [
+        100,
+        108
+      ],
+      "winnerTo": 104,
+      "loserTo": 357
+    },
+    {
+      "seats": [
+        116,
+        124
+      ],
+      "winnerTo": 120,
+      "loserTo": 371
+    },
+    {
+      "seats": [
+        132,
+        140
+      ],
+      "winnerTo": 136,
+      "loserTo": 391
+    },
+    {
+      "seats": [
+        148,
+        156
+      ],
+      "winnerTo": 152,
+      "loserTo": 405
+    },
+    {
+      "seats": [
+        164,
+        172
+      ],
+      "winnerTo": 168,
+      "loserTo": 421
+    },
+    {
+      "seats": [
+        180,
+        188
+      ],
+      "winnerTo": 184,
+      "loserTo": 435
+    },
+    {
+      "seats": [
+        196,
+        204
+      ],
+      "winnerTo": 200,
+      "loserTo": 453
+    },
+    {
+      "seats": [
+        212,
+        220
+      ],
+      "winnerTo": 216,
+      "loserTo": 467
+    },
+    {
+      "seats": [
+        228,
+        236
+      ],
+      "winnerTo": 232,
+      "loserTo": 483
+    },
+    {
+      "seats": [
+        244,
+        252
+      ],
+      "winnerTo": 248,
+      "loserTo": 497
+    },
+    {
+      "seats": [
+        8,
+        24
+      ],
+      "winnerTo": 16,
+      "loserTo": 263
+    },
+    {
+      "seats": [
+        40,
+        56
+      ],
+      "winnerTo": 48,
+      "loserTo": 293
+    },
+    {
+      "seats": [
+        72,
+        88
+      ],
+      "winnerTo": 80,
+      "loserTo": 325
+    },
+    {
+      "seats": [
+        104,
+        120
+      ],
+      "winnerTo": 112,
+      "loserTo": 355
+    },
+    {
+      "seats": [
+        136,
+        152
+      ],
+      "winnerTo": 144,
+      "loserTo": 389
+    },
+    {
+      "seats": [
+        168,
+        184
+      ],
+      "winnerTo": 176,
+      "loserTo": 419
+    },
+    {
+      "seats": [
+        200,
+        216
+      ],
+      "winnerTo": 208,
+      "loserTo": 451
+    },
+    {
+      "seats": [
+        232,
+        248
+      ],
+      "winnerTo": 240,
+      "loserTo": 481
+    },
+    {
+      "seats": [
+        16,
+        48
+      ],
+      "winnerTo": 32,
+      "loserTo": 261
+    },
+    {
+      "seats": [
+        80,
+        112
+      ],
+      "winnerTo": 96,
+      "loserTo": 323
+    },
+    {
+      "seats": [
+        144,
+        176
+      ],
+      "winnerTo": 160,
+      "loserTo": 387
+    },
+    {
+      "seats": [
+        208,
+        240
+      ],
+      "winnerTo": 224,
+      "loserTo": 449
+    },
+    {
+      "seats": [
+        32,
+        96
+      ],
+      "winnerTo": 64,
+      "loserTo": 259
+    },
+    {
+      "seats": [
+        160,
+        224
+      ],
+      "winnerTo": 192,
+      "loserTo": 385
+    },
+    {
+      "seats": [
+        64,
+        192
+      ],
+      "winnerTo": 128,
+      "loserTo": 257
+    },
+    {
+      "seats": [
+        269,
+        271
+      ],
+      "winnerTo": 270,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        275,
+        277
+      ],
+      "winnerTo": 276,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        283,
+        285
+      ],
+      "winnerTo": 284,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        289,
+        291
+      ],
+      "winnerTo": 290,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        299,
+        301
+      ],
+      "winnerTo": 300,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        305,
+        307
+      ],
+      "winnerTo": 306,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        313,
+        315
+      ],
+      "winnerTo": 314,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        319,
+        321
+      ],
+      "winnerTo": 320,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        331,
+        333
+      ],
+      "winnerTo": 332,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        337,
+        339
+      ],
+      "winnerTo": 338,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        345,
+        347
+      ],
+      "winnerTo": 346,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        351,
+        353
+      ],
+      "winnerTo": 352,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        361,
+        363
+      ],
+      "winnerTo": 362,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        367,
+        369
+      ],
+      "winnerTo": 368,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        375,
+        377
+      ],
+      "winnerTo": 376,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        381,
+        383
+      ],
+      "winnerTo": 382,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        395,
+        397
+      ],
+      "winnerTo": 396,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        401,
+        403
+      ],
+      "winnerTo": 402,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        409,
+        411
+      ],
+      "winnerTo": 410,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        415,
+        417
+      ],
+      "winnerTo": 416,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        425,
+        427
+      ],
+      "winnerTo": 426,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        431,
+        433
+      ],
+      "winnerTo": 432,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        439,
+        441
+      ],
+      "winnerTo": 440,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        445,
+        447
+      ],
+      "winnerTo": 446,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        457,
+        459
+      ],
+      "winnerTo": 458,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        463,
+        465
+      ],
+      "winnerTo": 464,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        471,
+        473
+      ],
+      "winnerTo": 472,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        477,
+        479
+      ],
+      "winnerTo": 478,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        487,
+        489
+      ],
+      "winnerTo": 488,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        493,
+        495
+      ],
+      "winnerTo": 494,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        501,
+        503
+      ],
+      "winnerTo": 502,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        507,
+        509
+      ],
+      "winnerTo": 508,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        267,
+        270
+      ],
+      "winnerTo": 268,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        273,
+        276
+      ],
+      "winnerTo": 274,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        281,
+        284
+      ],
+      "winnerTo": 282,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        287,
+        290
+      ],
+      "winnerTo": 288,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        297,
+        300
+      ],
+      "winnerTo": 298,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        303,
+        306
+      ],
+      "winnerTo": 304,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        311,
+        314
+      ],
+      "winnerTo": 312,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        317,
+        320
+      ],
+      "winnerTo": 318,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        329,
+        332
+      ],
+      "winnerTo": 330,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        335,
+        338
+      ],
+      "winnerTo": 336,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        343,
+        346
+      ],
+      "winnerTo": 344,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        349,
+        352
+      ],
+      "winnerTo": 350,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        359,
+        362
+      ],
+      "winnerTo": 360,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        365,
+        368
+      ],
+      "winnerTo": 366,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        373,
+        376
+      ],
+      "winnerTo": 374,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        379,
+        382
+      ],
+      "winnerTo": 380,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        393,
+        396
+      ],
+      "winnerTo": 394,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        399,
+        402
+      ],
+      "winnerTo": 400,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        407,
+        410
+      ],
+      "winnerTo": 408,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        413,
+        416
+      ],
+      "winnerTo": 414,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        423,
+        426
+      ],
+      "winnerTo": 424,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        429,
+        432
+      ],
+      "winnerTo": 430,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        437,
+        440
+      ],
+      "winnerTo": 438,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        443,
+        446
+      ],
+      "winnerTo": 444,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        455,
+        458
+      ],
+      "winnerTo": 456,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        461,
+        464
+      ],
+      "winnerTo": 462,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        469,
+        472
+      ],
+      "winnerTo": 470,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        475,
+        478
+      ],
+      "winnerTo": 476,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        485,
+        488
+      ],
+      "winnerTo": 486,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        491,
+        494
+      ],
+      "winnerTo": 492,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        499,
+        502
+      ],
+      "winnerTo": 500,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        505,
+        508
+      ],
+      "winnerTo": 506,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        268,
+        274
+      ],
+      "winnerTo": 272,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        282,
+        288
+      ],
+      "winnerTo": 286,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        298,
+        304
+      ],
+      "winnerTo": 302,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        312,
+        318
+      ],
+      "winnerTo": 316,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        330,
+        336
+      ],
+      "winnerTo": 334,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        344,
+        350
+      ],
+      "winnerTo": 348,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        360,
+        366
+      ],
+      "winnerTo": 364,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        374,
+        380
+      ],
+      "winnerTo": 378,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        394,
+        400
+      ],
+      "winnerTo": 398,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        408,
+        414
+      ],
+      "winnerTo": 412,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        424,
+        430
+      ],
+      "winnerTo": 428,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        438,
+        444
+      ],
+      "winnerTo": 442,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        456,
+        462
+      ],
+      "winnerTo": 460,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        470,
+        476
+      ],
+      "winnerTo": 474,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        486,
+        492
+      ],
+      "winnerTo": 490,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        500,
+        506
+      ],
+      "winnerTo": 504,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        265,
+        272
+      ],
+      "winnerTo": 266,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        279,
+        286
+      ],
+      "winnerTo": 280,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        295,
+        302
+      ],
+      "winnerTo": 296,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        309,
+        316
+      ],
+      "winnerTo": 310,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        327,
+        334
+      ],
+      "winnerTo": 328,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        341,
+        348
+      ],
+      "winnerTo": 342,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        357,
+        364
+      ],
+      "winnerTo": 358,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        371,
+        378
+      ],
+      "winnerTo": 372,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        391,
+        398
+      ],
+      "winnerTo": 392,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        405,
+        412
+      ],
+      "winnerTo": 406,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        421,
+        428
+      ],
+      "winnerTo": 422,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        435,
+        442
+      ],
+      "winnerTo": 436,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        453,
+        460
+      ],
+      "winnerTo": 454,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        467,
+        474
+      ],
+      "winnerTo": 468,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        483,
+        490
+      ],
+      "winnerTo": 484,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        497,
+        504
+      ],
+      "winnerTo": 498,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        266,
+        280
+      ],
+      "winnerTo": 278,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        296,
+        310
+      ],
+      "winnerTo": 308,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        328,
+        342
+      ],
+      "winnerTo": 340,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        358,
+        372
+      ],
+      "winnerTo": 370,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        392,
+        406
+      ],
+      "winnerTo": 404,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        422,
+        436
+      ],
+      "winnerTo": 434,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        454,
+        468
+      ],
+      "winnerTo": 466,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        484,
+        498
+      ],
+      "winnerTo": 496,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        263,
+        278
+      ],
+      "winnerTo": 264,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        293,
+        308
+      ],
+      "winnerTo": 294,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        325,
+        340
+      ],
+      "winnerTo": 326,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        355,
+        370
+      ],
+      "winnerTo": 356,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        389,
+        404
+      ],
+      "winnerTo": 390,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        419,
+        434
+      ],
+      "winnerTo": 420,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        451,
+        466
+      ],
+      "winnerTo": 452,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        481,
+        496
+      ],
+      "winnerTo": 482,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        264,
+        294
+      ],
+      "winnerTo": 292,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        326,
+        356
+      ],
+      "winnerTo": 354,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        390,
+        420
+      ],
+      "winnerTo": 418,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        452,
+        482
+      ],
+      "winnerTo": 480,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        261,
+        292
+      ],
+      "winnerTo": 262,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        323,
+        354
+      ],
+      "winnerTo": 324,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        387,
+        418
+      ],
+      "winnerTo": 388,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        449,
+        480
+      ],
+      "winnerTo": 450,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        262,
+        324
+      ],
+      "winnerTo": 322,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        388,
+        450
+      ],
+      "winnerTo": 448,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        259,
+        322
+      ],
+      "winnerTo": 260,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        385,
+        448
+      ],
+      "winnerTo": 386,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        260,
+        386
+      ],
+      "winnerTo": 384,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        257,
+        384
+      ],
+      "winnerTo": 258,
+      "loserTo": null
+    },
+    {
+      "seats": [
+        128,
+        258
+      ],
+      "winnerTo": null,
+      "loserTo": null
+    }
+  ],
+  "seats": [
+    {
+      "position": 256
+    },
+    {
+      "position": 128
+    },
+    {
+      "position": 258
+    },
+    {
+      "position": 64
+    },
+    {
+      "position": 192
+    },
+    {
+      "position": 32
+    },
+    {
+      "position": 96
+    },
+    {
+      "position": 160
+    },
+    {
+      "position": 224
+    },
+    {
+      "position": 16
+    },
+    {
+      "position": 48
+    },
+    {
+      "position": 80
+    },
+    {
+      "position": 112
+    },
+    {
+      "position": 144
+    },
+    {
+      "position": 176
+    },
+    {
+      "position": 208
+    },
+    {
+      "position": 240
+    },
+    {
+      "position": 8
+    },
+    {
+      "position": 24
+    },
+    {
+      "position": 40
+    },
+    {
+      "position": 56
+    },
+    {
+      "position": 72
+    },
+    {
+      "position": 88
+    },
+    {
+      "position": 104
+    },
+    {
+      "position": 120
+    },
+    {
+      "position": 136
+    },
+    {
+      "position": 152
+    },
+    {
+      "position": 168
+    },
+    {
+      "position": 184
+    },
+    {
+      "position": 200
+    },
+    {
+      "position": 216
+    },
+    {
+      "position": 232
+    },
+    {
+      "position": 248
+    },
+    {
+      "position": 4
+    },
+    {
+      "position": 12
+    },
+    {
+      "position": 20
+    },
+    {
+      "position": 28
+    },
+    {
+      "position": 36
+    },
+    {
+      "position": 44
+    },
+    {
+      "position": 52
+    },
+    {
+      "position": 60
+    },
+    {
+      "position": 68
+    },
+    {
+      "position": 76
+    },
+    {
+      "position": 84
+    },
+    {
+      "position": 92
+    },
+    {
+      "position": 100
+    },
+    {
+      "position": 108
+    },
+    {
+      "position": 116
+    },
+    {
+      "position": 124
+    },
+    {
+      "position": 132
+    },
+    {
+      "position": 140
+    },
+    {
+      "position": 148
+    },
+    {
+      "position": 156
+    },
+    {
+      "position": 164
+    },
+    {
+      "position": 172
+    },
+    {
+      "position": 180
+    },
+    {
+      "position": 188
+    },
+    {
+      "position": 196
+    },
+    {
+      "position": 204
+    },
+    {
+      "position": 212
+    },
+    {
+      "position": 220
+    },
+    {
+      "position": 228
+    },
+    {
+      "position": 236
+    },
+    {
+      "position": 244
+    },
+    {
+      "position": 252
+    },
+    {
+      "position": 2
+    },
+    {
+      "position": 6
+    },
+    {
+      "position": 10
+    },
+    {
+      "position": 14
+    },
+    {
+      "position": 18
+    },
+    {
+      "position": 22
+    },
+    {
+      "position": 26
+    },
+    {
+      "position": 30
+    },
+    {
+      "position": 34
+    },
+    {
+      "position": 38
+    },
+    {
+      "position": 42
+    },
+    {
+      "position": 46
+    },
+    {
+      "position": 50
+    },
+    {
+      "position": 54
+    },
+    {
+      "position": 58
+    },
+    {
+      "position": 62
+    },
+    {
+      "position": 66
+    },
+    {
+      "position": 70
+    },
+    {
+      "position": 74
+    },
+    {
+      "position": 78
+    },
+    {
+      "position": 82
+    },
+    {
+      "position": 86
+    },
+    {
+      "position": 90
+    },
+    {
+      "position": 94
+    },
+    {
+      "position": 98
+    },
+    {
+      "position": 102
+    },
+    {
+      "position": 106
+    },
+    {
+      "position": 110
+    },
+    {
+      "position": 114
+    },
+    {
+      "position": 118
+    },
+    {
+      "position": 122
+    },
+    {
+      "position": 126
+    },
+    {
+      "position": 130
+    },
+    {
+      "position": 134
+    },
+    {
+      "position": 138
+    },
+    {
+      "position": 142
+    },
+    {
+      "position": 146
+    },
+    {
+      "position": 150
+    },
+    {
+      "position": 154
+    },
+    {
+      "position": 158
+    },
+    {
+      "position": 162
+    },
+    {
+      "position": 166
+    },
+    {
+      "position": 170
+    },
+    {
+      "position": 174
+    },
+    {
+      "position": 178
+    },
+    {
+      "position": 182
+    },
+    {
+      "position": 186
+    },
+    {
+      "position": 190
+    },
+    {
+      "position": 194
+    },
+    {
+      "position": 198
+    },
+    {
+      "position": 202
+    },
+    {
+      "position": 206
+    },
+    {
+      "position": 210
+    },
+    {
+      "position": 214
+    },
+    {
+      "position": 218
+    },
+    {
+      "position": 222
+    },
+    {
+      "position": 226
+    },
+    {
+      "position": 230
+    },
+    {
+      "position": 234
+    },
+    {
+      "position": 238
+    },
+    {
+      "position": 242
+    },
+    {
+      "position": 246
+    },
+    {
+      "position": 250
+    },
+    {
+      "position": 254
+    },
+    {
+      "position": 1
+    },
+    {
+      "position": 3
+    },
+    {
+      "position": 5
+    },
+    {
+      "position": 7
+    },
+    {
+      "position": 9
+    },
+    {
+      "position": 11
+    },
+    {
+      "position": 13
+    },
+    {
+      "position": 15
+    },
+    {
+      "position": 17
+    },
+    {
+      "position": 19
+    },
+    {
+      "position": 21
+    },
+    {
+      "position": 23
+    },
+    {
+      "position": 25
+    },
+    {
+      "position": 27
+    },
+    {
+      "position": 29
+    },
+    {
+      "position": 31
+    },
+    {
+      "position": 33
+    },
+    {
+      "position": 35
+    },
+    {
+      "position": 37
+    },
+    {
+      "position": 39
+    },
+    {
+      "position": 41
+    },
+    {
+      "position": 43
+    },
+    {
+      "position": 45
+    },
+    {
+      "position": 47
+    },
+    {
+      "position": 49
+    },
+    {
+      "position": 51
+    },
+    {
+      "position": 53
+    },
+    {
+      "position": 55
+    },
+    {
+      "position": 57
+    },
+    {
+      "position": 59
+    },
+    {
+      "position": 61
+    },
+    {
+      "position": 63
+    },
+    {
+      "position": 65
+    },
+    {
+      "position": 67
+    },
+    {
+      "position": 69
+    },
+    {
+      "position": 71
+    },
+    {
+      "position": 73
+    },
+    {
+      "position": 75
+    },
+    {
+      "position": 77
+    },
+    {
+      "position": 79
+    },
+    {
+      "position": 81
+    },
+    {
+      "position": 83
+    },
+    {
+      "position": 85
+    },
+    {
+      "position": 87
+    },
+    {
+      "position": 89
+    },
+    {
+      "position": 91
+    },
+    {
+      "position": 93
+    },
+    {
+      "position": 95
+    },
+    {
+      "position": 97
+    },
+    {
+      "position": 99
+    },
+    {
+      "position": 101
+    },
+    {
+      "position": 103
+    },
+    {
+      "position": 105
+    },
+    {
+      "position": 107
+    },
+    {
+      "position": 109
+    },
+    {
+      "position": 111
+    },
+    {
+      "position": 113
+    },
+    {
+      "position": 115
+    },
+    {
+      "position": 117
+    },
+    {
+      "position": 119
+    },
+    {
+      "position": 121
+    },
+    {
+      "position": 123
+    },
+    {
+      "position": 125
+    },
+    {
+      "position": 127
+    },
+    {
+      "position": 129
+    },
+    {
+      "position": 131
+    },
+    {
+      "position": 133
+    },
+    {
+      "position": 135
+    },
+    {
+      "position": 137
+    },
+    {
+      "position": 139
+    },
+    {
+      "position": 141
+    },
+    {
+      "position": 143
+    },
+    {
+      "position": 145
+    },
+    {
+      "position": 147
+    },
+    {
+      "position": 149
+    },
+    {
+      "position": 151
+    },
+    {
+      "position": 153
+    },
+    {
+      "position": 155
+    },
+    {
+      "position": 157
+    },
+    {
+      "position": 159
+    },
+    {
+      "position": 161
+    },
+    {
+      "position": 163
+    },
+    {
+      "position": 165
+    },
+    {
+      "position": 167
+    },
+    {
+      "position": 169
+    },
+    {
+      "position": 171
+    },
+    {
+      "position": 173
+    },
+    {
+      "position": 175
+    },
+    {
+      "position": 177
+    },
+    {
+      "position": 179
+    },
+    {
+      "position": 181
+    },
+    {
+      "position": 183
+    },
+    {
+      "position": 185
+    },
+    {
+      "position": 187
+    },
+    {
+      "position": 189
+    },
+    {
+      "position": 191
+    },
+    {
+      "position": 193
+    },
+    {
+      "position": 195
+    },
+    {
+      "position": 197
+    },
+    {
+      "position": 199
+    },
+    {
+      "position": 201
+    },
+    {
+      "position": 203
+    },
+    {
+      "position": 205
+    },
+    {
+      "position": 207
+    },
+    {
+      "position": 209
+    },
+    {
+      "position": 211
+    },
+    {
+      "position": 213
+    },
+    {
+      "position": 215
+    },
+    {
+      "position": 217
+    },
+    {
+      "position": 219
+    },
+    {
+      "position": 221
+    },
+    {
+      "position": 223
+    },
+    {
+      "position": 225
+    },
+    {
+      "position": 227
+    },
+    {
+      "position": 229
+    },
+    {
+      "position": 231
+    },
+    {
+      "position": 233
+    },
+    {
+      "position": 235
+    },
+    {
+      "position": 237
+    },
+    {
+      "position": 239
+    },
+    {
+      "position": 241
+    },
+    {
+      "position": 243
+    },
+    {
+      "position": 245
+    },
+    {
+      "position": 247
+    },
+    {
+      "position": 249
+    },
+    {
+      "position": 251
+    },
+    {
+      "position": 253
+    },
+    {
+      "position": 255
+    },
+    {
+      "position": 257
+    },
+    {
+      "position": 384
+    },
+    {
+      "position": 260
+    },
+    {
+      "position": 386
+    },
+    {
+      "position": 259
+    },
+    {
+      "position": 322
+    },
+    {
+      "position": 262
+    },
+    {
+      "position": 324
+    },
+    {
+      "position": 261
+    },
+    {
+      "position": 292
+    },
+    {
+      "position": 264
+    },
+    {
+      "position": 294
+    },
+    {
+      "position": 263
+    },
+    {
+      "position": 278
+    },
+    {
+      "position": 266
+    },
+    {
+      "position": 280
+    },
+    {
+      "position": 265
+    },
+    {
+      "position": 272
+    },
+    {
+      "position": 268
+    },
+    {
+      "position": 274
+    },
+    {
+      "position": 267
+    },
+    {
+      "position": 270
+    },
+    {
+      "position": 269
+    },
+    {
+      "position": 271
+    },
+    {
+      "position": 273
+    },
+    {
+      "position": 276
+    },
+    {
+      "position": 275
+    },
+    {
+      "position": 277
+    },
+    {
+      "position": 279
+    },
+    {
+      "position": 286
+    },
+    {
+      "position": 282
+    },
+    {
+      "position": 288
+    },
+    {
+      "position": 281
+    },
+    {
+      "position": 284
+    },
+    {
+      "position": 283
+    },
+    {
+      "position": 285
+    },
+    {
+      "position": 287
+    },
+    {
+      "position": 290
+    },
+    {
+      "position": 289
+    },
+    {
+      "position": 291
+    },
+    {
+      "position": 293
+    },
+    {
+      "position": 308
+    },
+    {
+      "position": 296
+    },
+    {
+      "position": 310
+    },
+    {
+      "position": 295
+    },
+    {
+      "position": 302
+    },
+    {
+      "position": 298
+    },
+    {
+      "position": 304
+    },
+    {
+      "position": 297
+    },
+    {
+      "position": 300
+    },
+    {
+      "position": 299
+    },
+    {
+      "position": 301
+    },
+    {
+      "position": 303
+    },
+    {
+      "position": 306
+    },
+    {
+      "position": 305
+    },
+    {
+      "position": 307
+    },
+    {
+      "position": 309
+    },
+    {
+      "position": 316
+    },
+    {
+      "position": 312
+    },
+    {
+      "position": 318
+    },
+    {
+      "position": 311
+    },
+    {
+      "position": 314
+    },
+    {
+      "position": 313
+    },
+    {
+      "position": 315
+    },
+    {
+      "position": 317
+    },
+    {
+      "position": 320
+    },
+    {
+      "position": 319
+    },
+    {
+      "position": 321
+    },
+    {
+      "position": 323
+    },
+    {
+      "position": 354
+    },
+    {
+      "position": 326
+    },
+    {
+      "position": 356
+    },
+    {
+      "position": 325
+    },
+    {
+      "position": 340
+    },
+    {
+      "position": 328
+    },
+    {
+      "position": 342
+    },
+    {
+      "position": 327
+    },
+    {
+      "position": 334
+    },
+    {
+      "position": 330
+    },
+    {
+      "position": 336
+    },
+    {
+      "position": 329
+    },
+    {
+      "position": 332
+    },
+    {
+      "position": 331
+    },
+    {
+      "position": 333
+    },
+    {
+      "position": 335
+    },
+    {
+      "position": 338
+    },
+    {
+      "position": 337
+    },
+    {
+      "position": 339
+    },
+    {
+      "position": 341
+    },
+    {
+      "position": 348
+    },
+    {
+      "position": 344
+    },
+    {
+      "position": 350
+    },
+    {
+      "position": 343
+    },
+    {
+      "position": 346
+    },
+    {
+      "position": 345
+    },
+    {
+      "position": 347
+    },
+    {
+      "position": 349
+    },
+    {
+      "position": 352
+    },
+    {
+      "position": 351
+    },
+    {
+      "position": 353
+    },
+    {
+      "position": 355
+    },
+    {
+      "position": 370
+    },
+    {
+      "position": 358
+    },
+    {
+      "position": 372
+    },
+    {
+      "position": 357
+    },
+    {
+      "position": 364
+    },
+    {
+      "position": 360
+    },
+    {
+      "position": 366
+    },
+    {
+      "position": 359
+    },
+    {
+      "position": 362
+    },
+    {
+      "position": 361
+    },
+    {
+      "position": 363
+    },
+    {
+      "position": 365
+    },
+    {
+      "position": 368
+    },
+    {
+      "position": 367
+    },
+    {
+      "position": 369
+    },
+    {
+      "position": 371
+    },
+    {
+      "position": 378
+    },
+    {
+      "position": 374
+    },
+    {
+      "position": 380
+    },
+    {
+      "position": 373
+    },
+    {
+      "position": 376
+    },
+    {
+      "position": 375
+    },
+    {
+      "position": 377
+    },
+    {
+      "position": 379
+    },
+    {
+      "position": 382
+    },
+    {
+      "position": 381
+    },
+    {
+      "position": 383
+    },
+    {
+      "position": 385
+    },
+    {
+      "position": 448
+    },
+    {
+      "position": 388
+    },
+    {
+      "position": 450
+    },
+    {
+      "position": 387
+    },
+    {
+      "position": 418
+    },
+    {
+      "position": 390
+    },
+    {
+      "position": 420
+    },
+    {
+      "position": 389
+    },
+    {
+      "position": 404
+    },
+    {
+      "position": 392
+    },
+    {
+      "position": 406
+    },
+    {
+      "position": 391
+    },
+    {
+      "position": 398
+    },
+    {
+      "position": 394
+    },
+    {
+      "position": 400
+    },
+    {
+      "position": 393
+    },
+    {
+      "position": 396
+    },
+    {
+      "position": 395
+    },
+    {
+      "position": 397
+    },
+    {
+      "position": 399
+    },
+    {
+      "position": 402
+    },
+    {
+      "position": 401
+    },
+    {
+      "position": 403
+    },
+    {
+      "position": 405
+    },
+    {
+      "position": 412
+    },
+    {
+      "position": 408
+    },
+    {
+      "position": 414
+    },
+    {
+      "position": 407
+    },
+    {
+      "position": 410
+    },
+    {
+      "position": 409
+    },
+    {
+      "position": 411
+    },
+    {
+      "position": 413
+    },
+    {
+      "position": 416
+    },
+    {
+      "position": 415
+    },
+    {
+      "position": 417
+    },
+    {
+      "position": 419
+    },
+    {
+      "position": 434
+    },
+    {
+      "position": 422
+    },
+    {
+      "position": 436
+    },
+    {
+      "position": 421
+    },
+    {
+      "position": 428
+    },
+    {
+      "position": 424
+    },
+    {
+      "position": 430
+    },
+    {
+      "position": 423
+    },
+    {
+      "position": 426
+    },
+    {
+      "position": 425
+    },
+    {
+      "position": 427
+    },
+    {
+      "position": 429
+    },
+    {
+      "position": 432
+    },
+    {
+      "position": 431
+    },
+    {
+      "position": 433
+    },
+    {
+      "position": 435
+    },
+    {
+      "position": 442
+    },
+    {
+      "position": 438
+    },
+    {
+      "position": 444
+    },
+    {
+      "position": 437
+    },
+    {
+      "position": 440
+    },
+    {
+      "position": 439
+    },
+    {
+      "position": 441
+    },
+    {
+      "position": 443
+    },
+    {
+      "position": 446
+    },
+    {
+      "position": 445
+    },
+    {
+      "position": 447
+    },
+    {
+      "position": 449
+    },
+    {
+      "position": 480
+    },
+    {
+      "position": 452
+    },
+    {
+      "position": 482
+    },
+    {
+      "position": 451
+    },
+    {
+      "position": 466
+    },
+    {
+      "position": 454
+    },
+    {
+      "position": 468
+    },
+    {
+      "position": 453
+    },
+    {
+      "position": 460
+    },
+    {
+      "position": 456
+    },
+    {
+      "position": 462
+    },
+    {
+      "position": 455
+    },
+    {
+      "position": 458
+    },
+    {
+      "position": 457
+    },
+    {
+      "position": 459
+    },
+    {
+      "position": 461
+    },
+    {
+      "position": 464
+    },
+    {
+      "position": 463
+    },
+    {
+      "position": 465
+    },
+    {
+      "position": 467
+    },
+    {
+      "position": 474
+    },
+    {
+      "position": 470
+    },
+    {
+      "position": 476
+    },
+    {
+      "position": 469
+    },
+    {
+      "position": 472
+    },
+    {
+      "position": 471
+    },
+    {
+      "position": 473
+    },
+    {
+      "position": 475
+    },
+    {
+      "position": 478
+    },
+    {
+      "position": 477
+    },
+    {
+      "position": 479
+    },
+    {
+      "position": 481
+    },
+    {
+      "position": 496
+    },
+    {
+      "position": 484
+    },
+    {
+      "position": 498
+    },
+    {
+      "position": 483
+    },
+    {
+      "position": 490
+    },
+    {
+      "position": 486
+    },
+    {
+      "position": 492
+    },
+    {
+      "position": 485
+    },
+    {
+      "position": 488
+    },
+    {
+      "position": 487
+    },
+    {
+      "position": 489
+    },
+    {
+      "position": 491
+    },
+    {
+      "position": 494
+    },
+    {
+      "position": 493
+    },
+    {
+      "position": 495
+    },
+    {
+      "position": 497
+    },
+    {
+      "position": 504
+    },
+    {
+      "position": 500
+    },
+    {
+      "position": 506
+    },
+    {
+      "position": 499
+    },
+    {
+      "position": 502
+    },
+    {
+      "position": 501
+    },
+    {
+      "position": 503
+    },
+    {
+      "position": 505
+    },
+    {
+      "position": 508
+    },
+    {
+      "position": 507
+    },
+    {
+      "position": 509
+    }
+  ],
+  "startingSeats": [
+    1,
+    255,
+    129,
+    127,
+    65,
+    191,
+    193,
+    63,
+    33,
+    223,
+    161,
+    95,
+    97,
+    159,
+    225,
+    31,
+    17,
+    239,
+    145,
+    111,
+    81,
+    175,
+    209,
+    47,
+    49,
+    207,
+    177,
+    79,
+    113,
+    143,
+    241,
+    15,
+    9,
+    247,
+    137,
+    119,
+    73,
+    183,
+    201,
+    55,
+    41,
+    215,
+    169,
+    87,
+    105,
+    151,
+    233,
+    23,
+    25,
+    231,
+    153,
+    103,
+    89,
+    167,
+    217,
+    39,
+    57,
+    199,
+    185,
+    71,
+    121,
+    135,
+    249,
+    7,
+    5,
+    251,
+    133,
+    123,
+    69,
+    187,
+    197,
+    59,
+    37,
+    219,
+    165,
+    91,
+    101,
+    155,
+    229,
+    27,
+    21,
+    235,
+    149,
+    107,
+    85,
+    171,
+    213,
+    43,
+    53,
+    203,
+    181,
+    75,
+    117,
+    139,
+    245,
+    11,
+    13,
+    243,
+    141,
+    115,
+    77,
+    179,
+    205,
+    51,
+    45,
+    211,
+    173,
+    83,
+    109,
+    147,
+    237,
+    19,
+    29,
+    227,
+    157,
+    99,
+    93,
+    163,
+    221,
+    35,
+    61,
+    195,
+    189,
+    67,
+    125,
+    131,
+    253,
+    3
+  ]
+}

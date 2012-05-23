@@ -19,7 +19,7 @@ describe BracketTree::Template::Base do
         { 'position' => 5 },
         { 'position' => 7 }
       ],
-      'nodes' => []
+      'matches' => []
     }
   end
 
@@ -29,7 +29,7 @@ describe BracketTree::Template::Base do
 
       template.should be_a TestTemplate
       template.seats.should have(7).seats
-      template.nodes.should have(3).nodes
+      template.matches.should have(3).matches
     end
 
     it 'should return nil if template JSON does not exist' do

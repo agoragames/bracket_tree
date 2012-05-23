@@ -8,8 +8,10 @@ module BracketTree
     include Enumerable
     attr_accessor :root, :seed_order, :insertion_order
 
-    def initialize
+    def initialize options = {}
       @insertion_order = []
+
+      @matches = options[:matches] || []
     end
 
     # Adds a Node at the given position, setting the data as the payload. Maps to

@@ -1,15 +1,11 @@
 {
-  "nodes":[
+  "matches":[
     { "seats":[1,3], "winnerTo":null, "loserTo":null } 
   ],
   "seats":[
-    {
-      "position":2,
-      "seats":[
-        { "position": 1, "seats":[] },
-        { "position": 3, "seats":[] }
-      ]
-    }
+    { "position": 2 },
+    { "position": 1 },
+    { "position": 3 }
   ],
   "startingSeats":[1,3]
 }
