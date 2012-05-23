@@ -77,14 +77,10 @@ module BracketTree
     end
 
     # This needs refactoring. Inconsistent interface
-    # Not sure if this is what you want here or not, but this now accepts hashlike input
-    # I'm also unsure about a good default position. I assume 1? - MHW
     def add_winner winner
-      if @root
-        @root.payload = winner.to_hash
-      else
-        add 1, winner.to_hash
-      end
+      @root.payload.seed_value = winner.seed_position
+      @root.payload.race = winner.race
+      @root.payload.player = winner.user.login
     end
 
     def winner
