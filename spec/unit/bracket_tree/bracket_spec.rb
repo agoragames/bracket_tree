@@ -158,4 +158,18 @@ describe BracketTree::Bracket do
       expect { bracket.seed players }.to raise_error(BracketTree::Bracket::SeedLimitExceededError)
     end
   end
+
+  describe '#nodes' do
+    let(:bracket) { BracketTree::Template::SingleElimination.by_size(4).generate_blank_bracket }
+
+    it 'should return an array of nodes based on insertion order' do
+      bracket.nodes.should be_a Array
+      bracket.nodes.map { |n| n.position }.should == bracket.insertion_order
+    end
+
+    it 'returns an empty array when no nodes are present' do
+      bracket = BracketTree::Bracket.new
+      bracket.nodes.should == []
+    end
+  end
 end

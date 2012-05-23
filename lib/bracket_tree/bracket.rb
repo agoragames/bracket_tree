@@ -12,6 +12,11 @@ module BracketTree
       @insertion_order = []
     end
 
+    # Adds a Node at the given position, setting the data as the payload. Maps to
+    # binary tree under the hood.  The `data` can be any serializable object.
+    #
+    # @param Fixnum position - Seat position to add
+    # @param Object data - the player object to store in the Seat position
     def add position, data
       node = Node.new position, data
       @insertion_order << position
@@ -88,9 +93,12 @@ module BracketTree
       @root.to_h
     end
 
-    def nodes
-      to_a.sort_by { |node| @insertion_order.index(node.position) }
+    # returns an array of nodes based on insertion_order
+    def to_a
+      entries.sort_by { |node| @insertion_order.index(node.position) }
     end
+
+    alias_method :nodes, :to_a
 
     def at position
       find { |n| n.position == position }
