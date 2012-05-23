@@ -114,6 +114,19 @@ describe BracketTree::Bracket do
     end
   end
 
+  describe "#at" do
+    before do
+      bracket.add 3, { foo: 'foo' }
+      bracket.add 2, { bar: 'bar' }
+      bracket.add 1, { baz: 'baz' }
+    end
+    it "should return the node at the given position in the bracket" do
+      bracket.at(1).payload.should == { baz: 'baz'}
+      bracket.at(2).payload.should == { bar: 'bar'}
+      bracket.at(3).payload.should == { foo: 'foo'}
+    end
+  end
+
   describe '#seed' do
     let(:bracket) { BracketTree::Template::SingleElimination.by_size(4).generate_blank_bracket }
     let(:players) do

@@ -49,7 +49,7 @@ module BracketTree
     # @param [Fixnum] position - the node position to replace
     # @param payload - the new payload object to replace
     def replace position, payload
-      node = find { |n| n.position == position }
+      node = at position
       if node
         node.payload = payload
         true
@@ -97,6 +97,10 @@ module BracketTree
 
     def nodes
       to_a.sort_by { |node| @insertion_order.index(node.position) }
+    end
+
+    def at position
+      find { |n| n.position == position }
     end
 
     alias_method :size, :count
