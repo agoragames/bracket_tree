@@ -18,13 +18,13 @@ module BracketTree
         end
 
         # Generates Template from JSON
-        # 
+        #
         # @param [String] json - the bracket template in its standard data specification
         # @return [BracketTree::Template]
         def from_json json
           template = new
           if json['seats']
-            template.seats = json['seats'].map { |s| s['position'] } 
+            template.seats = json['seats'].map { |s| s['position'] }
           end
 
           if json['startingSeats']
@@ -68,12 +68,12 @@ module BracketTree
 
         bracket
       end
-      
+
       # Returns hash representation of the Template
       #
       # @return [Hash] template
       def to_h
-        hash = {
+        {
           'seats' => @seats.map { |s| { 'position' => s } },
           'startingSeats' => @starting_seats,
           'nodes' => @nodes

@@ -7,7 +7,7 @@ module BracketTree
 
     include Enumerable
     attr_accessor :root, :seed_order, :insertion_order
-    
+
     def initialize
       @insertion_order = []
     end
@@ -49,7 +49,7 @@ module BracketTree
     # @param [Fixnum] position - the node position to replace
     # @param payload - the new payload object to replace
     def replace position, payload
-      node = find { |n| n.position == position }
+      node = at position
       if node
         node.payload = payload
         true
@@ -99,14 +99,16 @@ module BracketTree
       to_a.sort_by { |node| @insertion_order.index(node.position) }
     end
 
-    def size
-      @insertion_order.size
+    def at position
+      find { |n| n.position == position }
     end
+
+    alias_method :size, :count
 
     def in_order(node, block)
       if node
         unless node.left.nil?
-          in_order(node.left, block) 
+          in_order(node.left, block)
         end
 
         block.call(node)
