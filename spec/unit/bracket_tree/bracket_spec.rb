@@ -127,6 +127,19 @@ describe BracketTree::Bracket do
     end
   end
 
+  describe "#add_winner" do
+    it "should destructure the incoming data as the root's payload" do
+      bracket.add 1, { name: 'well, it was me' }
+      bracket.add_winner( { name: 'but now it is me', awyeah: true } )
+      bracket.winner.should == { name: 'but now it is me', awyeah: true }
+    end
+    it "should create the root node if it needs to" do
+      bracket.size.should == 0
+      bracket.add_winner( { name: 'but now it is me', awyeah: true } )
+      bracket.winner.should == { name: 'but now it is me', awyeah: true }
+    end
+  end
+
   describe '#seed' do
     let(:bracket) { BracketTree::Template::SingleElimination.by_size(4).generate_blank_bracket }
     let(:players) do
