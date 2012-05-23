@@ -7,7 +7,7 @@ module BracketTree
 
     include Enumerable
     attr_accessor :root, :seed_order, :insertion_order
-    
+
     def initialize
       @insertion_order = []
     end
@@ -99,14 +99,12 @@ module BracketTree
       to_a.sort_by { |node| @insertion_order.index(node.position) }
     end
 
-    def size
-      @insertion_order.size
-    end
+    alias_method :size, :count
 
     def in_order(node, block)
       if node
         unless node.left.nil?
-          in_order(node.left, block) 
+          in_order(node.left, block)
         end
 
         block.call(node)

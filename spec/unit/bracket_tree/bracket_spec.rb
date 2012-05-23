@@ -105,6 +105,15 @@ describe BracketTree::Bracket do
     end
   end
 
+  describe "#size" do
+    it "should return the number of nodes in the bracket" do
+      bracket.add 3, { foo: 'foo' }
+      bracket.add 2, { bar: 'bar' }
+      bracket.add 4, { baz: 'baz' }
+      bracket.size.should == 3
+    end
+  end
+
   describe '#seed' do
     let(:bracket) { BracketTree::Template::SingleElimination.by_size(4).generate_blank_bracket }
     let(:players) do
