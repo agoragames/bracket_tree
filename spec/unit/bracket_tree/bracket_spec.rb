@@ -151,10 +151,10 @@ describe BracketTree::Bracket do
     it 'should place the players in the bracket by seed order' do
       bracket.seed players
 
-      bracket.find { |n| n.position == 1 }.payload.should == { name: 'player4' }
-      bracket.find { |n| n.position == 3 }.payload.should == { name: 'player1' }
-      bracket.find { |n| n.position == 5 }.payload.should == { name: 'player3' }
-      bracket.find { |n| n.position == 7 }.payload.should == { name: 'player2' }
+      bracket.at(1).payload.should == { name: 'player4' }
+      bracket.at(3).payload.should == { name: 'player1' }
+      bracket.at(5).payload.should == { name: 'player3' }
+      bracket.at(7).payload.should == { name: 'player2' }
     end
 
     it 'should raise a NoSeedOrderError if seed order is not present in bracket' do
