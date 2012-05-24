@@ -122,16 +122,40 @@ module BracketTree
     # manipulating bracket positions
     #
     # @param Fixnum seat - winning seat position
+    # @return Boolean result - result of progression
     def match_winner seat
       match = @matches.find { |m| m.include? seat }
-      losing_seat = match.seats.find { |s| s != seat }
 
-      if match.winner_to
-        self.replace match.winner_to, seats.at(seat).payload
+      if match
+        losing_seat = match.seats.find { |s| s != seat }
+
+        if match.winner_to
+          replace match.winner_to, at(seat).payload
+        end
+
+        if match.loser_to
+          replace match.loser_to, at(losing_seat).payload
+        end
+
+        return true
+      else
+        return false
       end
+    end
 
-      if match.loser_to
-        self.replace match.loser_to, seats.at(losing_seat).payload
+    # Inverse of `match_winner`, progresses the bracket based on seat. See `match_winner`
+    # for more details
+    #
+    # @param Fixnum seat - losing seat position
+    # @return Boolean result - result of progression
+    def match_loser seat
+      match = @matches.find { |m| m.include? seat }
+      
+      if match
+        winning_seat = match.seats.find { |s| s != seat }
+        match_winner winning_seat
+      else
+        return false
       end
     end
 

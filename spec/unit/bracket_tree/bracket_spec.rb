@@ -173,8 +173,10 @@ describe BracketTree::Bracket do
     let(:bracket) { BracketTree::Template::DoubleElimination.by_size(4).generate_blank_bracket }
 
     it 'copies the seat data to the seat specified in the match winner_to' do
+      bracket.at(1).payload[:seed_value] = 1
+
       bracket.match_winner 1
-      bracket.at(2).payload.should == bracket.at(11).payload
+      bracket.at(2).payload.should == bracket.at(1).payload
     end
   end
 end
