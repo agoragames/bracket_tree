@@ -11,6 +11,8 @@ module BracketTree
       @seats.include? seat
     end
 
+    alias_method :governs?, :include?
+
     def to_h
       {
         seats: @seats,
