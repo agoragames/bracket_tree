@@ -76,23 +76,43 @@ hash = {
 template = BracketTree::Template::Base.from_json hash
 ```
 
-Once have a template instantiated, we can generate a blank Bracket from the template.
-
-```
-template = BracketTree::Template::DoubleElimination.by_size(8)
-bracket  = template.generate_blank_bracket
-```
-
 ## BracketTree Brackets
 
-Once we've generated a bracket from a template, we're able to start populating and
-controlling the bracket information.  `BracketTree::Bracket` objects, when not created
-from a Template, are blank binary trees.  If you happen to know the math involved in
-hand-crafting a binary tree reflective of your particular tournament type, then you
-could use `add` to start adding nodes in the bracket:
+Brackets are derived from BracketTree::Bracket::Base or its sub-classes.  BracketTree
+provides two subclasses, `BracketTree::Bracket::SingleElimination` and 
+`BracketTree::Bracket::DoubleElimination`, to quickly generate blank brackets based on
+the popular standard formats:
 
 ```
-bracket = BracketTree::Bracket.new
+single_elim_bracket = BracketTree::Bracket::SingleElimination.by_size 4
+double_elim_bracket = BracketTree::Bracket::DoubleElimination.by_size 64
+```
+
+For those who wish to create a custom bracket Template class, doing so is straightforward.
+Create a subclass of `BracketTree::Bracket::Base` and use the `template` method to
+specify your template class, like the below `MLGDouble` bracket:
+
+```
+class MLGDoubleTemplate < BracketTree::Template::Base
+  def self.location
+    File.join File.dirname(__FILE__), 'templates', 'mlg_double'
+  end
+end
+
+class MLGDouble < BracketTree::Bracket::Base
+  template MLGDoubleTemplate
+end
+```
+
+Once we've generated a bracket from a template, we're able to start populating and
+controlling the bracket information.  All bracket objects derive from 
+`BracketTree::Bracket::Base`. If you generate a bracket from this class, it will
+have a blank binary tree.  If you happen to know the math involved in hand-crafting a
+binary tree reflective of your particular tournament type, then you could use `add` 
+to start adding nodes in the bracket:
+
+```
+bracket = BracketTree::Bracket::Base.new
 bracket.add 2, { player: 'player1' }
 bracket.add 1, { player: 'player1' }
 bracket.add 3, { player: 'player2' }
@@ -110,7 +130,7 @@ it with.
 In this example, we handle seeding a two-player, single elimination bracket:
 
 ```
-bracket = BracketTree::Template::SingleElimination.by_size(2).generate_blank_bracket
+bracket = BracketTree::Bracket::SingleElimination.by_size 2
 bracket.replace 1, { player: 'player1' }
 bracket.replace 3, { player: 'player3' }
 ```
@@ -126,10 +146,10 @@ methods from `Enumerable` on a bracket, know that they are in the context of a `
 following:
 
 ```
-bracket = BracketTree::Template::SingleElimination.by_size(2).generate_blank_bracket
+bracket = BracketTree::Bracket::SingleElimination.by_size 2
 bracket.replace 2, { player: 'player1 }
 
-node = bracket.find { |n| n.position == 2 }
+node = bracket.at(2)
 node.payload # => { player: 'player1' }
 node.payload[:seed_value] = 3
 ```
@@ -146,14 +166,22 @@ players = []
   players << { login: "Player#{n}", seed_value: n }
 end
 
-bracket = BracketTree::Template::DoubleElimination.by_size(32).generate_blank_bracket
+bracket = BracketTree::Bracket::DoubleElimination.by_size 32
 bracket.seed players
 
 # Player1 wins Rd 1
-bracket.find { |n| n.position == 1 }.payload[:winner] = true
-bracket.replace 2, { login: "Player1", seed_value: 1 }
+bracket.match_winner(1)
+bracket.at(1).payload[:winner] = true
 
 # Player3 wins Rd 1
-bracket.find { |n| n.position == 5 }.payload[:winner] = true
-bracket.replace 6, { login: "Player3", seed_value: 3 }
+bracket.match_winner(5)
+bracket.at(1).payload[:winner] = true
 ```
+
+## Contributions
+
+Contributions are awesome.  Feature branch pull requests are the preferred method.
+
+## Author
+
+Written by [Andrew Nordman](http://github.com/cadwallion)
