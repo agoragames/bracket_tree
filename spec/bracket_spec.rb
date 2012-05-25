@@ -1,7 +1,8 @@
 require 'spec_helper'
 
-describe BracketTree::Bracket do
-  let(:bracket) { BracketTree::Bracket.new }
+describe BracketTree::Bracket::Base do
+  let(:bracket) { BracketTree::Bracket::Base.new }
+
   describe '#initialize' do
     it 'should create an array of Match objects if matches are passed' do
       matches = [
@@ -9,7 +10,7 @@ describe BracketTree::Bracket do
         { seats: [5,7], winner_to: 4, loser_to: nil },
         { seats: [2,4], winner_to: 6, loser_to: nil }
       ]
-      bracket = BracketTree::Bracket.new matches: matches
+      bracket = BracketTree::Bracket::Base.new matches: matches
 
       bracket.matches.should be_a Array
       bracket.matches.map(&:class).should == [BracketTree::Match, BracketTree::Match, BracketTree::Match]
@@ -18,6 +19,12 @@ describe BracketTree::Bracket do
     it 'should create an empty if matches are not passed' do
       bracket.matches.should be_a Array
       bracket.matches.should == []
+    end
+
+    it 'should assign the seed order if seed_order is passed' do
+      expected = [1,3,5,7]
+      bracket = BracketTree::Bracket::Base.new seed_order: expected
+      bracket.seed_order.should == expected
     end
   end
 
@@ -88,7 +95,7 @@ describe BracketTree::Bracket do
   end
 
   describe '#seats' do
-    let(:bracket) { BracketTree::Template::SingleElimination.by_size(4).generate_blank_bracket }
+    let(:bracket) { BracketTree::Bracket::SingleElimination.by_size 4 }
 
     it 'should return 7 seats' do
       bracket.seats.should have(7).seats
@@ -138,7 +145,7 @@ describe BracketTree::Bracket do
   end
 
   describe '#seed' do
-    let(:bracket) { BracketTree::Template::SingleElimination.by_size(4).generate_blank_bracket }
+    let(:bracket) { BracketTree::Bracket::SingleElimination.by_size 4 }
     let(:players) do
       [
         { name: 'player4' },
@@ -170,7 +177,7 @@ describe BracketTree::Bracket do
   end
 
   describe '#match_winner' do
-    let(:bracket) { BracketTree::Template::DoubleElimination.by_size(4).generate_blank_bracket }
+    let(:bracket) { BracketTree::Bracket::DoubleElimination.by_size 4 }
 
     it 'copies the seat data to the seat specified in the match winner_to' do
       bracket.at(1).payload[:seed_value] = 1

@@ -53,22 +53,6 @@ module BracketTree
         @matches = []
       end
 
-      # Generates a Bracket object with placeholder empty hashes for each Seat in the
-      # Template
-      #
-      # @return [BracketTree::Bracket] bracket
-      def generate_blank_bracket
-        bracket = Bracket.new matches: @matches
-
-        @seats.each do |position|
-          bracket.add position, {}
-        end
-
-        bracket.seed_order = @starting_seats
-
-        bracket
-      end
-
       # Returns hash representation of the Template
       #
       # @return [Hash] template
@@ -79,6 +63,8 @@ module BracketTree
           matches: @matches
         }
       end
+
+      alias_method :seed_order, :starting_seats
     end
   end
 end

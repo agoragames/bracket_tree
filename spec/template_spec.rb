@@ -55,24 +55,4 @@ describe BracketTree::Template::Base do
       template.to_h.should == template_json
     end
   end
-
-  describe '#generate_blank_bracket' do
-    it 'should return a Bracket object with empty hashes in the seats' do
-      template = TestTemplate.by_size 4
-      bracket = template.generate_blank_bracket
-
-      bracket.should be_a BracketTree::Bracket
-      bracket.size.should == 7
-      bracket.to_a.map { |n| n.payload }.should == [{}, {}, {}, {}, {}, {}, {}]
-    end
-
-    it 'should populate the matches from the template' do
-      template = TestTemplate.by_size 4
-      bracket = template.generate_blank_bracket
-
-      bracket.matches.should be_a Array
-      bracket.matches[0].should be_a BracketTree::Match
-      bracket.matches[0].to_h.should == template.matches[0]
-    end
-  end
 end
