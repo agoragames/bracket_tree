@@ -1,4 +1,4 @@
-# BracketTree
+# BracketTree [![Build Status](https://secure.travis-ci.org/agoragames/bracket_tree.png)](http://travis-ci.org/agoragames/bracket_tree)
 
 BracketTree is a bracketing system built around the BracketTree Data Specification,
 which uses a three-section data structure built on top of JSON to convey the visual
