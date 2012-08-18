@@ -150,6 +150,17 @@ module BracketTree
     end
   end
 
+  # This module provides the delegation used for PositionalRelation. Including this
+  # module results in brackets gaining the understanding of the positional relation
+  # traversal system.
+  #
+  # @example
+  #   class CrazyBracket < BracketTree::Bracket::Base
+  #     include BracketTree::PositionalRelation
+  #   end
+  #
+  #   bracket = CrazyBracket.new
+  #   bracket.winners.all # => []
   module PositionalRelationDelegators
     extend Forwardable
 

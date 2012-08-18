@@ -26,8 +26,6 @@ module BracketTree
     class Base
       class NoTemplateError < Exception ; end
 
-      include PositionalRelationDelegators
-
       class << self
         def by_size size, options = {}
           generate_from_template @template, size
