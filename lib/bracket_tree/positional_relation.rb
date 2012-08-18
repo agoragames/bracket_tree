@@ -7,39 +7,37 @@ module BracketTree
   # you do not know the exact position value that you are looking for. It uses
   # two types of methods: relation condition methods and relation access methods.
   #
-  # Relation Condition Methods
+  # == Relation Condition Methods
   #
   # Relation condition methods take the original `PositionalRelation` object and
   # add conditions, returning the original object for easy chaining of relation
   # conditions.  Actual traversal does not happen with these methods.
   #
-  # @example
-  #   bracket = BracketTree::Bracket::DoubleElimination.by_size(4)
-  #   relation = BracketTree::PositionalRelation.new(bracket) # => <BracketTree::PositionalRelation:0x007fa9431e1060>
-  #   relation.winners # => <BracketTree::PositionalRelation:0x007fa9431e1060>
-  #   relation.round(4) # => <BracketTree::PositionalRelation:0x007fa9431e1060>
+  #     bracket = BracketTree::Bracket::DoubleElimination.by_size(4)
+  #     relation = BracketTree::PositionalRelation.new(bracket) # => <BracketTree::PositionalRelation:0x007fa9431e1060>
+  #     relation.winners # => <BracketTree::PositionalRelation:0x007fa9431e1060>
+  #     relation.round(4) # => <BracketTree::PositionalRelation:0x007fa9431e1060>
   #
   # Relation conditions can be chained to create very specific or very broad
   # options.  Once you call a Relation Access Method, it will build based on the
   # chain.
   #
-  # @example Complex chaining of relations
-  #   bracket = BracketTree::Bracket::DoubleElimination.by_size(4)
-  #   relation = BracketTree::PositionalRelation.new(bracket)
-  #   relation.winners.round(4).seat(3) # => <BracketTree::Node:0x01e37>
+  #     bracket = BracketTree::Bracket::DoubleElimination.by_size(4)
+  #     relation = BracketTree::PositionalRelation.new(bracket)
+  #     relation.winners.round(1).seat(3) # => <BracketTree::Node:0x01e37 @position=5>
   #
   # Typically you will not directly instance BracketTree::RelationalPosition due
   # to the need to pass in a bracket. Instead, bracket objects have access to these
   # methods directly, and will return a BracketTree::PositionalRelation object.
   #
-  # Relation Access Methods
+  # == Relation Access Methods
   #
   # Relation access methods take the complete set of relation conditions and uses
   # them as instructions for traversing the tree to collect the Node(s) requested.
   #
-  # @example
-  #   bracket = BracketTree::Bracket::DoubleElimination.by_size(4)
-  #   bracket.winners.round(4).first # => <BracketTree::Node:0x007fa9271e73e0>
+  #     bracket = BracketTree::Bracket::DoubleElimination.by_size(4)
+  #     bracket.winners.round(4).first  # => <BracketTree::Node:0x007fa92 @position=16>
+  #     bracket.losers.round(2).seat(1) # => <BracketTree::Node:0x001eaf9 @position=2>
   class PositionalRelation
     attr_reader :bracket
 
