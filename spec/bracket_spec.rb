@@ -190,14 +190,10 @@ describe BracketTree::Bracket::Base do
   describe 'positional relation hooks' do
     let(:bracket) { BracketTree::Bracket::DoubleElimination.by_size 4 }
 
-    it 'delegates the query methods to a relation' do
-      relation = bracket.winners
-      relation.should be_a BracketTree::PositionalRelation
-    end
-
-    it 'delegates the accessor methods to a relation' do
-      nodes = bracket.winners.round(1).all
-      nodes.should have(4).nodes
+    [:winners, :losers, :round, :all, :first, :last, :seat].each do |m|
+      it "should respond to #{m}" do
+        bracket.should respond_to m
+      end
     end
   end
 end
