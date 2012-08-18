@@ -1,6 +1,6 @@
 module BracketTree
   class Node
-    attr_accessor :left, :right, :position, :payload
+    attr_accessor :left, :right, :position, :payload, :depth
 
     def initialize position, payload = nil
       @position = position

@@ -26,6 +26,8 @@ module BracketTree
     class Base
       class NoTemplateError < Exception ; end
 
+      include PositionalRelationDelegators
+
       class << self
         def by_size size, options = {}
           generate_from_template @template, size
@@ -55,11 +57,16 @@ module BracketTree
       end
 
       include Enumerable
-      attr_accessor :root, :seed_order, :matches, :insertion_order
+      attr_accessor :root, :seed_order, :matches, :insertion_order, :depth
 
       def initialize options = {}
         @insertion_order = []
         @matches = []
+        @depth = {
+          total: 0,
+          left: 0,
+          right: 0
+        }
 
         if options[:matches]
           options[:matches].each do |m|
@@ -81,28 +88,46 @@ module BracketTree
 
         if @root.nil?
           @root = node
+          @depth[:total] = 1
+          @depth[:left] = 1
+          @depth[:right] = 1
         else
           current = @root
+          current_depth = 2
           loop do
             if node.position < current.position
               if current.left.nil?
+                node.depth = current_depth
                 current.left = node
+
+                depth_check current_depth, node.position
                 break
               else
                 current = current.left
+                current_depth += 1
               end
             elsif node.position > current.position
               if current.right.nil?
+                node.depth = current_depth
                 current.right = node
+
+                depth_check current_depth, node.position
                 break
               else
                 current = current.right
+                current_depth += 1
               end
             else
               break
             end
           end
         end
+      end
+
+      def depth_check depth, position
+        @depth[:total] = [depth, @depth[:total]].max
+        @depth[:left]  = [depth, @depth[:left] ].max if position < @root.position
+        @depth[:right] = [depth, @depth[:right]].max if position > @root.position
       end
 
       # Replaces the data at a given node position with new payload. This is useful
@@ -212,15 +237,20 @@ module BracketTree
 
       def in_order(node, block)
         if node
-          unless node.left.nil?
-            in_order(node.left, block)
-          end
+          in_order(node.left, block) unless node.left.nil?
 
           block.call(node)
 
-          unless node.right.nil?
-            in_order(node.right, block)
-          end
+          in_order(node.right, block) unless node.right.nil?
+        end
+      end
+
+      def top_down(node, &block)
+        if node
+          block.call(node)
+
+          top_down(node.left, &block) unless node.left.nil?
+          top_down(node.right, &block) unless node.right.nil?
         end
       end
     end

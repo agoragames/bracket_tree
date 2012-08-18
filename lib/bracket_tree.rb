@@ -1,4 +1,5 @@
 require 'json'
+require 'bracket_tree/positional_relation'
 require 'bracket_tree/match'
 require 'bracket_tree/bracket'
 require 'bracket_tree/template'

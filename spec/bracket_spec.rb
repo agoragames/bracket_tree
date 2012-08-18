@@ -186,4 +186,18 @@ describe BracketTree::Bracket::Base do
       bracket.at(2).payload.should == bracket.at(1).payload
     end
   end
+
+  describe 'positional relation hooks' do
+    let(:bracket) { BracketTree::Bracket::DoubleElimination.by_size 4 }
+
+    it 'delegates the query methods to a relation' do
+      relation = bracket.winners
+      relation.should be_a BracketTree::PositionalRelation
+    end
+
+    it 'delegates the accessor methods to a relation' do
+      nodes = bracket.winners.round(1).all
+      nodes.should have(4).nodes
+    end
+  end
 end
