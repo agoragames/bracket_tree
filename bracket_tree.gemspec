@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/agoragames/bracket_tree"
   s.summary     = %q{Binary Tree based bracketing system}
   s.description = %q{Binary Tree based bracketing system}
+  s.license     = 'MIT'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
