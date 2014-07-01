@@ -31,10 +31,38 @@ module BracketTree
         end
 
         describe '#populate_first_row_matches' do
-          it 'builds seats' do
-            subject.populate_first_row_matches
-            subject.matches_row(0).first.should == {:seats => [1,3], :winner_to => 2, :loser_to => nil}
-            subject.matches_row(0).last.should == {:seats => [29,31], :winner_to => 30, :loser_to => nil}
+          before { subject.populate_first_row_matches }
+
+          it 'builds first match with expected values' do
+            first_match = {:seats => [1,3],   :winner_to => 2,  :loser_to => nil}
+            subject.matches_row(0).first.should == first_match
+          end
+
+          it 'builds last match with expected values' do
+            last_match  = {:seats => [29,31], :winner_to => 30, :loser_to => nil}
+            subject.matches_row(0).last.should  == last_match
+          end
+        end
+
+        describe '#populate_matches' do
+          before { subject.populate_matches }
+
+          it 'builds ninth match with expected values' do
+            ninth_match = {:seats => [2,6], :winner_to => 4, :loser_to => nil}
+            subject.matches_row(1).first.should == ninth_match
+          end
+
+          it 'builds last match with expected values' do
+            last_match = {:seats => [8,24], :winner_to => nil, :loser_to => nil}
+            subject.matches.last.first.should == last_match
+          end
+        end
+
+        describe '#populate_seats' do
+          it 'builds seats as expected' do
+            subject.populate_matches
+            subject.populate_seats
+            subject.seats[1].should == {:position => 8}
           end
         end
       end
