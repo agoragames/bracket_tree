@@ -81,11 +81,12 @@ module BracketTree
       end
 
       def populate_seats
-        positions = matches.flatten.map {|match| match[:seats]}.reverse.flatten
-        positions.unshift positions.first*2
-        positions.inject seats do |seats, position|
+        matches_seats = matches.map {|arr| arr.map {|a| a[:seats]}}.reverse
+        matches_seats << matches_seats.first*2
+        seats = matches_seats.flatten.inject [] do |seats, position|
           seats << {:position => position}
         end
+        @seats = seats
       end
     end
   end

@@ -67,19 +67,51 @@ module BracketTree
         end
 
         describe '.to_json' do
-          it 'builds expected json 8' do
-            subject = SingleEliminationGenerator.new(8)
-            hash = JSON.parse File.read(File.expand_path '../../lib/bracket_tree/templates/single_elimination/8.json', __FILE__), :symbolize_names => true
+          # it 'builds expected json 8' do
+          #   subject = SingleEliminationGenerator.new(8)
+          #   hash = JSON.parse File.read(File.expand_path '../../lib/bracket_tree/templates/single_elimination/8.json', __FILE__), :symbolize_names => true
+          #   subject.build
+          #   subject.to_hash.should == hash.symbolize_keys
+          # end
+
+          # it 'builds expected json 16' do
+          #   subject = SingleEliminationGenerator.new(16)
+          #   hash = JSON.parse File.read(File.expand_path '../../lib/bracket_tree/templates/single_elimination/16.json', __FILE__), :symbolize_names => true
+          #   subject.build
+          #   subject.to_hash.should == hash.symbolize_keys
+          # end
+
+
+          it 'builds expected json 32' do
+            subject = SingleEliminationGenerator.new(32)
+            hash = JSON.parse File.read(File.expand_path '../../lib/bracket_tree/templates/single_elimination/32.json', __FILE__), :symbolize_names => true
             subject.build
-            subject.to_hash.should == hash.symbolize_keys
+            binding.pry
+            result = subject.to_hash
+            result[:matches].should        == hash[:matches]
+            result[:starting_seats].should == hash[:starting_seats]
+            result[:seats].should          == hash[:seats]
           end
 
-          it 'builds expected json 16' do
-            subject = SingleEliminationGenerator.new(16)
-            hash = JSON.parse File.read(File.expand_path '../../lib/bracket_tree/templates/single_elimination/16.json', __FILE__), :symbolize_names => true
-            subject.build
-            subject.to_hash.should == hash.symbolize_keys
-          end
+          # it 'builds expected json 64' do
+          #   subject = SingleEliminationGenerator.new(64)
+          #   hash = JSON.parse File.read(File.expand_path '../../lib/bracket_tree/templates/single_elimination/64.json', __FILE__), :symbolize_names => true
+          #   subject.build
+          #   result = subject.to_hash
+          #   result[:matches].should == hash[:matches]
+          #   result[:starting_seats].should == hash[:starting_seats]
+          #   result[:seats].should == hash[:seats]
+          # end
+
+          # it 'builds expected json 128' do
+          #   subject = SingleEliminationGenerator.new(128)
+          #   hash = JSON.parse File.read(File.expand_path '../../lib/bracket_tree/templates/single_elimination/128.json', __FILE__), :symbolize_names => true
+          #   subject.build
+          #   result = subject.to_hash
+          #   result[:matches].should == hash[:matches]
+          #   result[:starting_seats].should == hash[:starting_seats]
+          #   result[:seats].should == hash[:seats]
+          # end
         end
       end
     end
