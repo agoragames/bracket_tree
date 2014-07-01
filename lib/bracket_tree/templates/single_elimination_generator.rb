@@ -1,4 +1,5 @@
 require 'active_support/all'
+require 'json'
 
 module BracketTree
   module Template
@@ -10,6 +11,20 @@ module BracketTree
         @matches        = []
         @seats          = []
         @starting_seats = (1..contenders*2).select { |n| n.odd? }
+      end
+
+      def build
+        build_matches
+        populate_matches
+        populate_seats
+      end
+
+      def to_hash
+        {
+          :matches        => matches.flatten,
+          :seats          => seats,
+          :starting_seats => starting_seats
+        }
       end
 
       def matches_for_row(n)
@@ -24,7 +39,9 @@ module BracketTree
         i = 1
         while matches_for_row(i) > 0
           row = []
-          matches_for_row(i).times  { row << {:seats => nil, :winner_to => nil, :loser_to => nil} }
+          matches_for_row(i).times  do
+            row << {:seats => nil, :winner_to => nil, :loser_to => nil}
+          end
           matches << row
           i += 1
         end
@@ -65,7 +82,7 @@ module BracketTree
 
       def populate_seats
         positions = matches.flatten.map {|match| match[:seats]}.reverse.flatten
-        positions.unshift contenders
+        positions.unshift positions.first*2
         positions.inject seats do |seats, position|
           seats << {:position => position}
         end

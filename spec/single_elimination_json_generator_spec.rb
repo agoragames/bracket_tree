@@ -65,6 +65,22 @@ module BracketTree
             subject.seats[1].should == {:position => 8}
           end
         end
+
+        describe '.to_json' do
+          it 'builds expected json 8' do
+            subject = SingleEliminationGenerator.new(8)
+            hash = JSON.parse File.read(File.expand_path '../../lib/bracket_tree/templates/single_elimination/8.json', __FILE__), :symbolize_names => true
+            subject.build
+            subject.to_hash.should == hash.symbolize_keys
+          end
+
+          it 'builds expected json 16' do
+            subject = SingleEliminationGenerator.new(16)
+            hash = JSON.parse File.read(File.expand_path '../../lib/bracket_tree/templates/single_elimination/16.json', __FILE__), :symbolize_names => true
+            subject.build
+            subject.to_hash.should == hash.symbolize_keys
+          end
+        end
       end
     end
   end
