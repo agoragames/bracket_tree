@@ -34,6 +34,10 @@ module BracketTree
         }
       end
 
+      def to_json
+        to_hash.to_json
+      end
+
       def matches_for_row(n)
         if n == 1
           contenders / 2
