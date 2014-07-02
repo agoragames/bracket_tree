@@ -131,6 +131,33 @@ module BracketTree
               subject.to_hash[:seats].should == expected[:seats]
             end
           end
+
+          context 'when building a 256 seats tree' do
+            subject { SingleEliminationGenerator.new 256 }
+
+            it 'builds the json' do
+              subject.build
+              subject.to_json.should_not raise_error
+            end
+          end
+
+          context 'when building a 512 seats tree' do
+            subject { SingleEliminationGenerator.new 512 }
+
+            it 'builds the json' do
+              subject.build
+              subject.to_json.should_not raise_error
+            end
+          end
+
+          context 'when building a 1024 seats tree' do
+            subject { SingleEliminationGenerator.new 1024 }
+
+            it 'builds the json' do
+              subject.build
+              subject.to_json.should_not raise_error
+            end
+          end
         end
       end
     end
