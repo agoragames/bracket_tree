@@ -4,6 +4,12 @@ require 'spec_helper'
 module BracketTree
   module Template
     describe SingleEliminationGenerator do
+      def hash_from_single_elimination_json(n)
+        filename = "../../lib/bracket_tree/templates/single_elimination/#{n}.json"
+        JSON.parse File.read(File.expand_path filename, __FILE__), :symbolize_names => true
+
+      end
+
       context 'with 16 contenders' do
         subject { SingleEliminationGenerator.new(16) }
 
@@ -68,51 +74,63 @@ module BracketTree
           end
         end
 
-        describe '.to_json' do
-          # it 'builds expected json 8' do
-          #   subject = SingleEliminationGenerator.new(8)
-          #   hash = JSON.parse File.read(File.expand_path '../../lib/bracket_tree/templates/single_elimination/8.json', __FILE__), :symbolize_names => true
-          #   subject.build
-          #   subject.to_hash.should == hash.symbolize_keys
-          # end
+        describe '#to_hash' do
+          context 'when building a 8 seats tree' do
+            subject { SingleEliminationGenerator.new(8) }
+            let(:expected) { hash_from_single_elimination_json 8 }
 
-          # it 'builds expected json 16' do
-          #   subject = SingleEliminationGenerator.new(16)
-          #   hash = JSON.parse File.read(File.expand_path '../../lib/bracket_tree/templates/single_elimination/16.json', __FILE__), :symbolize_names => true
-          #   subject.build
-          #   subject.to_hash.should == hash.symbolize_keys
-          # end
+            it 'builds expected json 8' do
+              subject.build
+              subject.to_hash.should == expected.symbolize_keys
+            end
+          end
 
+          context 'when building a 16 seats tree' do
+            subject { SingleEliminationGenerator.new 16 }
+            let(:expected) { hash_from_single_elimination_json 16 }
 
-          # it 'builds expected json 32' do
-          #   subject = SingleEliminationGenerator.new(32)
-          #   hash = JSON.parse File.read(File.expand_path '../../lib/bracket_tree/templates/single_elimination/32.json', __FILE__), :symbolize_names => true
-          #   subject.build
-          #   result = subject.to_hash
-          #   result[:matches].should        == hash[:matches]
-          #   result[:starting_seats].should == hash[:starting_seats]
-          #   result[:seats].should          == hash[:seats]
-          # end
+            it 'builds expected json 16' do
+              subject.build
+              subject.to_hash.should == expected.symbolize_keys
+            end
+          end
 
-          # it 'builds expected json 64' do
-          #   subject = SingleEliminationGenerator.new(64)
-          #   hash = JSON.parse File.read(File.expand_path '../../lib/bracket_tree/templates/single_elimination/64.json', __FILE__), :symbolize_names => true
-          #   subject.build
-          #   result = subject.to_hash
-          #   result[:matches].should == hash[:matches]
-          #   result[:starting_seats].should == hash[:starting_seats]
-          #   result[:seats].should == hash[:seats]
-          # end
+          context 'when building a 32 seats tree' do
+            subject { SingleEliminationGenerator.new 32 }
+            let(:expected) { hash_from_single_elimination_json 32 }
 
-          # it 'builds expected json 128' do
-          #   subject = SingleEliminationGenerator.new(128)
-          #   hash = JSON.parse File.read(File.expand_path '../../lib/bracket_tree/templates/single_elimination/128.json', __FILE__), :symbolize_names => true
-          #   subject.build
-          #   result = subject.to_hash
-          #   result[:matches].should == hash[:matches]
-          #   result[:starting_seats].should == hash[:starting_seats]
-          #   result[:seats].should == hash[:seats]
-          # end
+            it 'builds expected json 32' do
+              subject.build
+              subject.to_hash.should == expected.symbolize_keys
+            end
+          end
+
+          context 'when building a 64 seats tree' do
+            subject { SingleEliminationGenerator.new 64 }
+            let(:expected) { hash_from_single_elimination_json 64 }
+
+            it 'builds expected json 64' do
+              subject.build
+              subject.to_hash.should == expected.symbolize_keys
+            end
+          end
+
+          context 'when building a 128 seats tree' do
+            subject { SingleEliminationGenerator.new 128 }
+            let(:expected) { hash_from_single_elimination_json 128 }
+
+            it 'builds expected json 128' do
+              subject.build
+              result = subject.to_hash
+              result[:matches].should        == expected[:matches]
+              result[:starting_seats].should == expected[:starting_seats]
+            end
+
+            it 'has problems with seats' do
+              subject.build
+              subject.to_hash[:seats].should == expected[:seats]
+            end
+          end
         end
       end
     end
