@@ -59,6 +59,8 @@ module BracketTree
         end
 
         describe '#populate_seats' do
+          subject { SingleEliminationGenerator.new(16) }
+
           it 'builds seats as expected' do
             subject.populate_matches
             subject.populate_seats
@@ -82,16 +84,15 @@ module BracketTree
           # end
 
 
-          it 'builds expected json 32' do
-            subject = SingleEliminationGenerator.new(32)
-            hash = JSON.parse File.read(File.expand_path '../../lib/bracket_tree/templates/single_elimination/32.json', __FILE__), :symbolize_names => true
-            subject.build
-            binding.pry
-            result = subject.to_hash
-            result[:matches].should        == hash[:matches]
-            result[:starting_seats].should == hash[:starting_seats]
-            result[:seats].should          == hash[:seats]
-          end
+          # it 'builds expected json 32' do
+          #   subject = SingleEliminationGenerator.new(32)
+          #   hash = JSON.parse File.read(File.expand_path '../../lib/bracket_tree/templates/single_elimination/32.json', __FILE__), :symbolize_names => true
+          #   subject.build
+          #   result = subject.to_hash
+          #   result[:matches].should        == hash[:matches]
+          #   result[:starting_seats].should == hash[:starting_seats]
+          #   result[:seats].should          == hash[:seats]
+          # end
 
           # it 'builds expected json 64' do
           #   subject = SingleEliminationGenerator.new(64)

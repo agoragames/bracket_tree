@@ -36,14 +36,16 @@ module BracketTree
       end
 
       def build_matches
-        i = 1
-        while matches_for_row(i) > 0
-          row = []
-          matches_for_row(i).times  do
-            row << {:seats => nil, :winner_to => nil, :loser_to => nil}
+        if matches.empty?
+          i = 1
+          while matches_for_row(i) > 0
+            row = []
+            matches_for_row(i).times  do
+              row << {:seats => nil, :winner_to => nil, :loser_to => nil}
+            end
+            matches << row
+            i += 1
           end
-          matches << row
-          i += 1
         end
       end
 
@@ -81,11 +83,10 @@ module BracketTree
       end
 
       def populate_seats
-        matches_seats = matches.map {|arr| arr.map {|a| a[:seats]}}.reverse
-        matches_seats << matches_seats.first*2
-        seats = matches_seats.flatten.inject [] do |seats, position|
-          seats << {:position => position}
-        end
+        matches_seats = matches.map {|arr| arr.map {|a| a[:seats]}}
+        matches_seats = matches_seats.reverse.map {|a| a.reverse}.flatten
+        seats  = matches_seats.unshift matches_seats.first*2
+        seats.map! {|n| {:position => n} }
         @seats = seats
       end
     end
