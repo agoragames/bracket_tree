@@ -97,7 +97,7 @@ module BracketTree
         @matches_seats = matches.map {|arr| arr.map {|a| a[:seats]}}
         @ordered_seats = contenders < 32 ? @matches_seats.reverse.map {|a| a.reverse} : @matches_seats.reverse
         @flat_seats    = @ordered_seats.flatten
-        @first_seat    = contenders > 64 ? @flat_seats.first + @flat_seats.second : @flat_seats.first*2
+        @first_seat    = @flat_seats.first*2
         @all_seats     = @flat_seats.unshift @first_seat
         @object_seats  = @all_seats.map! {|n| {:position => n} }
         @seats         = @object_seats
