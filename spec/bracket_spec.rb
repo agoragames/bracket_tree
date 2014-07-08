@@ -15,7 +15,7 @@ describe BracketTree::Bracket::Base do
       bracket.matches.should be_a Array
       bracket.matches.map(&:class).should == [BracketTree::Match, BracketTree::Match, BracketTree::Match]
     end
-    
+
     it 'should create an empty if matches are not passed' do
       bracket.matches.should be_a Array
       bracket.matches.should == []
@@ -193,6 +193,16 @@ describe BracketTree::Bracket::Base do
     [:winners, :losers, :round, :all, :first, :last, :seat].each do |m|
       it "should respond to #{m}" do
         bracket.should respond_to m
+      end
+    end
+  end
+
+  describe 'single elimination bracket' do
+    let(:klass) {BracketTree::Bracket::SingleElimination }
+
+    it 'builds brackets with expected depth' do
+      [[64, 7], [128,8]].each do |size, depth|
+        klass.by_size(size).depth.should == {:left => depth, :right => depth, :total => 7}
       end
     end
   end
