@@ -202,7 +202,7 @@ describe BracketTree::Bracket::Base do
 
     it 'builds brackets with expected depth' do
       [[64, 7], [128,8]].each do |size, depth|
-        klass.by_size(size).depth.should == {:left => depth, :right => depth, :total => 7}
+        klass.by_size(size).depth.should == {:left => depth, :right => depth, :total => depth}
       end
     end
   end
