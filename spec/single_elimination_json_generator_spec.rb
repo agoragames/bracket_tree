@@ -7,10 +7,9 @@ module BracketTree
       def hash_from_single_elimination_json(n)
         filename = "../../lib/bracket_tree/templates/single_elimination/#{n}.json"
         JSON.parse File.read(File.expand_path filename, __FILE__), :symbolize_names => true
-
       end
 
-      context 'with 16 contenders' do
+      context 'with 16 slots' do
         subject { SingleEliminationGenerator.new(16) }
 
         before { subject.build_matches }

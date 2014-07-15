@@ -4,20 +4,13 @@ require 'json'
 module BracketTree
   module Template
     class SingleEliminationGenerator
-      attr_reader :seats, :matches, :starting_seats, :contenders
+      attr_reader :seats, :matches, :starting_seats, :slots
 
-      attr_reader :matches_seats
-      attr_reader :ordered_seats
-      attr_reader :flat_seats
-      attr_reader :all_seats
-      attr_reader :object_seats
-      attr_reader :first_seat
-
-      def initialize(contenders)
-        @contenders     = contenders
+      def initialize(slots)
+        @slots          = slots
         @matches        = []
         @seats          = []
-        @starting_seats = (1..contenders*2).select { |n| n.odd? }
+        @starting_seats = (1..slots*2).select { |n| n.odd? }
       end
 
       def build
@@ -40,7 +33,7 @@ module BracketTree
 
       def matches_for_row(n)
         if n == 1
-          contenders / 2
+          slots / 2
         else
           matches_for_row(n - 1) / 2
         end
@@ -94,13 +87,12 @@ module BracketTree
       end
 
       def populate_seats
-        @matches_seats = matches.map {|arr| arr.map {|a| a[:seats]}}
-        @ordered_seats = contenders < 32 ? @matches_seats.reverse.map {|a| a.reverse} : @matches_seats.reverse
-        @flat_seats    = @ordered_seats.flatten
-        @first_seat    = @flat_seats.first*2
-        @all_seats     = @flat_seats.unshift @first_seat
-        @object_seats  = @all_seats.map! {|n| {:position => n} }
-        @seats         = @object_seats
+        matches_seats = matches.map {|arr| arr.map {|a| a[:seats]}}
+        ordered_seats = slots < 32 ? matches_seats.reverse.map {|a| a.reverse} : matches_seats.reverse
+        flat_seats    = ordered_seats.flatten
+        first_seat    = flat_seats.first*2
+        all_seats     = flat_seats.unshift first_seat
+        @seats        = all_seats.map {|n| {:position => n} }
       end
     end
   end
