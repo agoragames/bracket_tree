@@ -18,8 +18,8 @@
     { "seats":[51,53], "winner_to":52, "loser_to":null },
     { "seats":[57,59], "winner_to":58, "loser_to":null },
 
-    { "seats":[4,12], "winner_to":8, "loser_to":61 },
-    { "seats":[20,28], "winner_to":24, "loser_to":35 },
+    { "seats":[4,12], "winner_to":8, "loser_to":35 },
+    { "seats":[20,28], "winner_to":24, "loser_to":61 },
     { "seats":[37,40], "winner_to":38, "loser_to":null },
     { "seats":[43,46], "winner_to":44, "loser_to":null },
     { "seats":[49,52], "winner_to":50, "loser_to":null },
