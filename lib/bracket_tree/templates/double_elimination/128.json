@@ -1,2037 +1,272 @@
 {
   "matches": [
-    {
-      "seats": [
-        1,
-        3
-      ],
-      "winner_to": 2,
-      "loser_to": 269
-    },
-    {
-      "seats": [
-        5,
-        7
-      ],
-      "winner_to": 6,
-      "loser_to": 271
-    },
-    {
-      "seats": [
-        9,
-        11
-      ],
-      "winner_to": 10,
-      "loser_to": 275
-    },
-    {
-      "seats": [
-        13,
-        15
-      ],
-      "winner_to": 14,
-      "loser_to": 277
-    },
-    {
-      "seats": [
-        17,
-        19
-      ],
-      "winner_to": 18,
-      "loser_to": 283
-    },
-    {
-      "seats": [
-        21,
-        23
-      ],
-      "winner_to": 22,
-      "loser_to": 285
-    },
-    {
-      "seats": [
-        25,
-        27
-      ],
-      "winner_to": 26,
-      "loser_to": 289
-    },
-    {
-      "seats": [
-        29,
-        31
-      ],
-      "winner_to": 30,
-      "loser_to": 291
-    },
-    {
-      "seats": [
-        33,
-        35
-      ],
-      "winner_to": 34,
-      "loser_to": 299
-    },
-    {
-      "seats": [
-        37,
-        39
-      ],
-      "winner_to": 38,
-      "loser_to": 301
-    },
-    {
-      "seats": [
-        41,
-        43
-      ],
-      "winner_to": 42,
-      "loser_to": 305
-    },
-    {
-      "seats": [
-        45,
-        47
-      ],
-      "winner_to": 46,
-      "loser_to": 307
-    },
-    {
-      "seats": [
-        49,
-        51
-      ],
-      "winner_to": 50,
-      "loser_to": 313
-    },
-    {
-      "seats": [
-        53,
-        55
-      ],
-      "winner_to": 54,
-      "loser_to": 315
-    },
-    {
-      "seats": [
-        57,
-        59
-      ],
-      "winner_to": 58,
-      "loser_to": 319
-    },
-    {
-      "seats": [
-        61,
-        63
-      ],
-      "winner_to": 62,
-      "loser_to": 321
-    },
-    {
-      "seats": [
-        65,
-        67
-      ],
-      "winner_to": 66,
-      "loser_to": 331
-    },
-    {
-      "seats": [
-        69,
-        71
-      ],
-      "winner_to": 70,
-      "loser_to": 333
-    },
-    {
-      "seats": [
-        73,
-        75
-      ],
-      "winner_to": 74,
-      "loser_to": 337
-    },
-    {
-      "seats": [
-        77,
-        79
-      ],
-      "winner_to": 78,
-      "loser_to": 339
-    },
-    {
-      "seats": [
-        81,
-        83
-      ],
-      "winner_to": 82,
-      "loser_to": 345
-    },
-    {
-      "seats": [
-        85,
-        87
-      ],
-      "winner_to": 86,
-      "loser_to": 347
-    },
-    {
-      "seats": [
-        89,
-        91
-      ],
-      "winner_to": 90,
-      "loser_to": 351
-    },
-    {
-      "seats": [
-        93,
-        95
-      ],
-      "winner_to": 94,
-      "loser_to": 353
-    },
-    {
-      "seats": [
-        97,
-        99
-      ],
-      "winner_to": 98,
-      "loser_to": 361
-    },
-    {
-      "seats": [
-        101,
-        103
-      ],
-      "winner_to": 102,
-      "loser_to": 363
-    },
-    {
-      "seats": [
-        105,
-        107
-      ],
-      "winner_to": 106,
-      "loser_to": 367
-    },
-    {
-      "seats": [
-        109,
-        111
-      ],
-      "winner_to": 110,
-      "loser_to": 369
-    },
-    {
-      "seats": [
-        113,
-        115
-      ],
-      "winner_to": 114,
-      "loser_to": 375
-    },
-    {
-      "seats": [
-        117,
-        119
-      ],
-      "winner_to": 118,
-      "loser_to": 377
-    },
-    {
-      "seats": [
-        121,
-        123
-      ],
-      "winner_to": 122,
-      "loser_to": 381
-    },
-    {
-      "seats": [
-        125,
-        127
-      ],
-      "winner_to": 126,
-      "loser_to": 383
-    },
-    {
-      "seats": [
-        129,
-        131
-      ],
-      "winner_to": 130,
-      "loser_to": 395
-    },
-    {
-      "seats": [
-        133,
-        135
-      ],
-      "winner_to": 134,
-      "loser_to": 397
-    },
-    {
-      "seats": [
-        137,
-        139
-      ],
-      "winner_to": 138,
-      "loser_to": 401
-    },
-    {
-      "seats": [
-        141,
-        143
-      ],
-      "winner_to": 142,
-      "loser_to": 403
-    },
-    {
-      "seats": [
-        145,
-        147
-      ],
-      "winner_to": 146,
-      "loser_to": 409
-    },
-    {
-      "seats": [
-        149,
-        151
-      ],
-      "winner_to": 150,
-      "loser_to": 411
-    },
-    {
-      "seats": [
-        153,
-        155
-      ],
-      "winner_to": 154,
-      "loser_to": 415
-    },
-    {
-      "seats": [
-        157,
-        159
-      ],
-      "winner_to": 158,
-      "loser_to": 417
-    },
-    {
-      "seats": [
-        161,
-        163
-      ],
-      "winner_to": 162,
-      "loser_to": 425
-    },
-    {
-      "seats": [
-        165,
-        167
-      ],
-      "winner_to": 166,
-      "loser_to": 427
-    },
-    {
-      "seats": [
-        169,
-        171
-      ],
-      "winner_to": 170,
-      "loser_to": 431
-    },
-    {
-      "seats": [
-        173,
-        175
-      ],
-      "winner_to": 174,
-      "loser_to": 433
-    },
-    {
-      "seats": [
-        177,
-        179
-      ],
-      "winner_to": 178,
-      "loser_to": 439
-    },
-    {
-      "seats": [
-        181,
-        183
-      ],
-      "winner_to": 182,
-      "loser_to": 441
-    },
-    {
-      "seats": [
-        185,
-        187
-      ],
-      "winner_to": 186,
-      "loser_to": 445
-    },
-    {
-      "seats": [
-        189,
-        191
-      ],
-      "winner_to": 190,
-      "loser_to": 447
-    },
-    {
-      "seats": [
-        193,
-        195
-      ],
-      "winner_to": 194,
-      "loser_to": 457
-    },
-    {
-      "seats": [
-        197,
-        199
-      ],
-      "winner_to": 198,
-      "loser_to": 459
-    },
-    {
-      "seats": [
-        201,
-        203
-      ],
-      "winner_to": 202,
-      "loser_to": 463
-    },
-    {
-      "seats": [
-        205,
-        207
-      ],
-      "winner_to": 206,
-      "loser_to": 465
-    },
-    {
-      "seats": [
-        209,
-        211
-      ],
-      "winner_to": 210,
-      "loser_to": 471
-    },
-    {
-      "seats": [
-        213,
-        215
-      ],
-      "winner_to": 214,
-      "loser_to": 473
-    },
-    {
-      "seats": [
-        217,
-        219
-      ],
-      "winner_to": 218,
-      "loser_to": 477
-    },
-    {
-      "seats": [
-        221,
-        223
-      ],
-      "winner_to": 222,
-      "loser_to": 479
-    },
-    {
-      "seats": [
-        225,
-        227
-      ],
-      "winner_to": 226,
-      "loser_to": 487
-    },
-    {
-      "seats": [
-        229,
-        231
-      ],
-      "winner_to": 230,
-      "loser_to": 489
-    },
-    {
-      "seats": [
-        233,
-        235
-      ],
-      "winner_to": 234,
-      "loser_to": 493
-    },
-    {
-      "seats": [
-        237,
-        239
-      ],
-      "winner_to": 238,
-      "loser_to": 495
-    },
-    {
-      "seats": [
-        241,
-        243
-      ],
-      "winner_to": 242,
-      "loser_to": 501
-    },
-    {
-      "seats": [
-        245,
-        247
-      ],
-      "winner_to": 246,
-      "loser_to": 503
-    },
-    {
-      "seats": [
-        249,
-        251
-      ],
-      "winner_to": 250,
-      "loser_to": 507
-    },
-    {
-      "seats": [
-        253,
-        255
-      ],
-      "winner_to": 254,
-      "loser_to": 509
-    },
-    {
-      "seats": [
-        2,
-        6
-      ],
-      "winner_to": 4,
-      "loser_to": 267
-    },
-    {
-      "seats": [
-        10,
-        14
-      ],
-      "winner_to": 12,
-      "loser_to": 273
-    },
-    {
-      "seats": [
-        18,
-        22
-      ],
-      "winner_to": 20,
-      "loser_to": 281
-    },
-    {
-      "seats": [
-        26,
-        30
-      ],
-      "winner_to": 28,
-      "loser_to": 287
-    },
-    {
-      "seats": [
-        34,
-        38
-      ],
-      "winner_to": 36,
-      "loser_to": 297
-    },
-    {
-      "seats": [
-        42,
-        46
-      ],
-      "winner_to": 44,
-      "loser_to": 303
-    },
-    {
-      "seats": [
-        50,
-        54
-      ],
-      "winner_to": 52,
-      "loser_to": 311
-    },
-    {
-      "seats": [
-        58,
-        62
-      ],
-      "winner_to": 60,
-      "loser_to": 317
-    },
-    {
-      "seats": [
-        66,
-        70
-      ],
-      "winner_to": 68,
-      "loser_to": 329
-    },
-    {
-      "seats": [
-        74,
-        78
-      ],
-      "winner_to": 76,
-      "loser_to": 335
-    },
-    {
-      "seats": [
-        82,
-        86
-      ],
-      "winner_to": 84,
-      "loser_to": 343
-    },
-    {
-      "seats": [
-        90,
-        94
-      ],
-      "winner_to": 92,
-      "loser_to": 349
-    },
-    {
-      "seats": [
-        98,
-        102
-      ],
-      "winner_to": 100,
-      "loser_to": 359
-    },
-    {
-      "seats": [
-        106,
-        110
-      ],
-      "winner_to": 108,
-      "loser_to": 365
-    },
-    {
-      "seats": [
-        114,
-        118
-      ],
-      "winner_to": 116,
-      "loser_to": 373
-    },
-    {
-      "seats": [
-        122,
-        126
-      ],
-      "winner_to": 124,
-      "loser_to": 379
-    },
-    {
-      "seats": [
-        130,
-        134
-      ],
-      "winner_to": 132,
-      "loser_to": 393
-    },
-    {
-      "seats": [
-        138,
-        142
-      ],
-      "winner_to": 140,
-      "loser_to": 399
-    },
-    {
-      "seats": [
-        146,
-        150
-      ],
-      "winner_to": 148,
-      "loser_to": 407
-    },
-    {
-      "seats": [
-        154,
-        158
-      ],
-      "winner_to": 156,
-      "loser_to": 413
-    },
-    {
-      "seats": [
-        162,
-        166
-      ],
-      "winner_to": 164,
-      "loser_to": 423
-    },
-    {
-      "seats": [
-        170,
-        174
-      ],
-      "winner_to": 172,
-      "loser_to": 429
-    },
-    {
-      "seats": [
-        178,
-        182
-      ],
-      "winner_to": 180,
-      "loser_to": 437
-    },
-    {
-      "seats": [
-        186,
-        190
-      ],
-      "winner_to": 188,
-      "loser_to": 443
-    },
-    {
-      "seats": [
-        194,
-        198
-      ],
-      "winner_to": 196,
-      "loser_to": 455
-    },
-    {
-      "seats": [
-        202,
-        206
-      ],
-      "winner_to": 204,
-      "loser_to": 461
-    },
-    {
-      "seats": [
-        210,
-        214
-      ],
-      "winner_to": 212,
-      "loser_to": 469
-    },
-    {
-      "seats": [
-        218,
-        222
-      ],
-      "winner_to": 220,
-      "loser_to": 475
-    },
-    {
-      "seats": [
-        226,
-        230
-      ],
-      "winner_to": 228,
-      "loser_to": 485
-    },
-    {
-      "seats": [
-        234,
-        238
-      ],
-      "winner_to": 236,
-      "loser_to": 491
-    },
-    {
-      "seats": [
-        242,
-        246
-      ],
-      "winner_to": 244,
-      "loser_to": 499
-    },
-    {
-      "seats": [
-        250,
-        254
-      ],
-      "winner_to": 252,
-      "loser_to": 505
-    },
-    {
-      "seats": [
-        4,
-        12
-      ],
-      "winner_to": 8,
-      "loser_to": 265
-    },
-    {
-      "seats": [
-        20,
-        28
-      ],
-      "winner_to": 24,
-      "loser_to": 279
-    },
-    {
-      "seats": [
-        36,
-        44
-      ],
-      "winner_to": 40,
-      "loser_to": 295
-    },
-    {
-      "seats": [
-        52,
-        60
-      ],
-      "winner_to": 56,
-      "loser_to": 309
-    },
-    {
-      "seats": [
-        68,
-        76
-      ],
-      "winner_to": 72,
-      "loser_to": 327
-    },
-    {
-      "seats": [
-        84,
-        92
-      ],
-      "winner_to": 88,
-      "loser_to": 341
-    },
-    {
-      "seats": [
-        100,
-        108
-      ],
-      "winner_to": 104,
-      "loser_to": 357
-    },
-    {
-      "seats": [
-        116,
-        124
-      ],
-      "winner_to": 120,
-      "loser_to": 371
-    },
-    {
-      "seats": [
-        132,
-        140
-      ],
-      "winner_to": 136,
-      "loser_to": 391
-    },
-    {
-      "seats": [
-        148,
-        156
-      ],
-      "winner_to": 152,
-      "loser_to": 405
-    },
-    {
-      "seats": [
-        164,
-        172
-      ],
-      "winner_to": 168,
-      "loser_to": 421
-    },
-    {
-      "seats": [
-        180,
-        188
-      ],
-      "winner_to": 184,
-      "loser_to": 435
-    },
-    {
-      "seats": [
-        196,
-        204
-      ],
-      "winner_to": 200,
-      "loser_to": 453
-    },
-    {
-      "seats": [
-        212,
-        220
-      ],
-      "winner_to": 216,
-      "loser_to": 467
-    },
-    {
-      "seats": [
-        228,
-        236
-      ],
-      "winner_to": 232,
-      "loser_to": 483
-    },
-    {
-      "seats": [
-        244,
-        252
-      ],
-      "winner_to": 248,
-      "loser_to": 497
-    },
-    {
-      "seats": [
-        8,
-        24
-      ],
-      "winner_to": 16,
-      "loser_to": 263
-    },
-    {
-      "seats": [
-        40,
-        56
-      ],
-      "winner_to": 48,
-      "loser_to": 293
-    },
-    {
-      "seats": [
-        72,
-        88
-      ],
-      "winner_to": 80,
-      "loser_to": 325
-    },
-    {
-      "seats": [
-        104,
-        120
-      ],
-      "winner_to": 112,
-      "loser_to": 355
-    },
-    {
-      "seats": [
-        136,
-        152
-      ],
-      "winner_to": 144,
-      "loser_to": 389
-    },
-    {
-      "seats": [
-        168,
-        184
-      ],
-      "winner_to": 176,
-      "loser_to": 419
-    },
-    {
-      "seats": [
-        200,
-        216
-      ],
-      "winner_to": 208,
-      "loser_to": 451
-    },
-    {
-      "seats": [
-        232,
-        248
-      ],
-      "winner_to": 240,
-      "loser_to": 481
-    },
-    {
-      "seats": [
-        16,
-        48
-      ],
-      "winner_to": 32,
-      "loser_to": 261
-    },
-    {
-      "seats": [
-        80,
-        112
-      ],
-      "winner_to": 96,
-      "loser_to": 323
-    },
-    {
-      "seats": [
-        144,
-        176
-      ],
-      "winner_to": 160,
-      "loser_to": 387
-    },
-    {
-      "seats": [
-        208,
-        240
-      ],
-      "winner_to": 224,
-      "loser_to": 449
-    },
-    {
-      "seats": [
-        32,
-        96
-      ],
-      "winner_to": 64,
-      "loser_to": 259
-    },
-    {
-      "seats": [
-        160,
-        224
-      ],
-      "winner_to": 192,
-      "loser_to": 385
-    },
-    {
-      "seats": [
-        64,
-        192
-      ],
-      "winner_to": 128,
-      "loser_to": 257
-    },
-    {
-      "seats": [
-        269,
-        271
-      ],
-      "winner_to": 270,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        275,
-        277
-      ],
-      "winner_to": 276,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        283,
-        285
-      ],
-      "winner_to": 284,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        289,
-        291
-      ],
-      "winner_to": 290,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        299,
-        301
-      ],
-      "winner_to": 300,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        305,
-        307
-      ],
-      "winner_to": 306,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        313,
-        315
-      ],
-      "winner_to": 314,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        319,
-        321
-      ],
-      "winner_to": 320,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        331,
-        333
-      ],
-      "winner_to": 332,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        337,
-        339
-      ],
-      "winner_to": 338,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        345,
-        347
-      ],
-      "winner_to": 346,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        351,
-        353
-      ],
-      "winner_to": 352,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        361,
-        363
-      ],
-      "winner_to": 362,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        367,
-        369
-      ],
-      "winner_to": 368,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        375,
-        377
-      ],
-      "winner_to": 376,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        381,
-        383
-      ],
-      "winner_to": 382,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        395,
-        397
-      ],
-      "winner_to": 396,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        401,
-        403
-      ],
-      "winner_to": 402,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        409,
-        411
-      ],
-      "winner_to": 410,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        415,
-        417
-      ],
-      "winner_to": 416,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        425,
-        427
-      ],
-      "winner_to": 426,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        431,
-        433
-      ],
-      "winner_to": 432,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        439,
-        441
-      ],
-      "winner_to": 440,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        445,
-        447
-      ],
-      "winner_to": 446,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        457,
-        459
-      ],
-      "winner_to": 458,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        463,
-        465
-      ],
-      "winner_to": 464,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        471,
-        473
-      ],
-      "winner_to": 472,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        477,
-        479
-      ],
-      "winner_to": 478,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        487,
-        489
-      ],
-      "winner_to": 488,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        493,
-        495
-      ],
-      "winner_to": 494,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        501,
-        503
-      ],
-      "winner_to": 502,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        507,
-        509
-      ],
-      "winner_to": 508,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        267,
-        270
-      ],
-      "winner_to": 268,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        273,
-        276
-      ],
-      "winner_to": 274,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        281,
-        284
-      ],
-      "winner_to": 282,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        287,
-        290
-      ],
-      "winner_to": 288,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        297,
-        300
-      ],
-      "winner_to": 298,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        303,
-        306
-      ],
-      "winner_to": 304,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        311,
-        314
-      ],
-      "winner_to": 312,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        317,
-        320
-      ],
-      "winner_to": 318,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        329,
-        332
-      ],
-      "winner_to": 330,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        335,
-        338
-      ],
-      "winner_to": 336,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        343,
-        346
-      ],
-      "winner_to": 344,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        349,
-        352
-      ],
-      "winner_to": 350,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        359,
-        362
-      ],
-      "winner_to": 360,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        365,
-        368
-      ],
-      "winner_to": 366,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        373,
-        376
-      ],
-      "winner_to": 374,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        379,
-        382
-      ],
-      "winner_to": 380,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        393,
-        396
-      ],
-      "winner_to": 394,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        399,
-        402
-      ],
-      "winner_to": 400,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        407,
-        410
-      ],
-      "winner_to": 408,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        413,
-        416
-      ],
-      "winner_to": 414,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        423,
-        426
-      ],
-      "winner_to": 424,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        429,
-        432
-      ],
-      "winner_to": 430,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        437,
-        440
-      ],
-      "winner_to": 438,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        443,
-        446
-      ],
-      "winner_to": 444,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        455,
-        458
-      ],
-      "winner_to": 456,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        461,
-        464
-      ],
-      "winner_to": 462,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        469,
-        472
-      ],
-      "winner_to": 470,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        475,
-        478
-      ],
-      "winner_to": 476,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        485,
-        488
-      ],
-      "winner_to": 486,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        491,
-        494
-      ],
-      "winner_to": 492,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        499,
-        502
-      ],
-      "winner_to": 500,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        505,
-        508
-      ],
-      "winner_to": 506,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        268,
-        274
-      ],
-      "winner_to": 272,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        282,
-        288
-      ],
-      "winner_to": 286,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        298,
-        304
-      ],
-      "winner_to": 302,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        312,
-        318
-      ],
-      "winner_to": 316,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        330,
-        336
-      ],
-      "winner_to": 334,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        344,
-        350
-      ],
-      "winner_to": 348,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        360,
-        366
-      ],
-      "winner_to": 364,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        374,
-        380
-      ],
-      "winner_to": 378,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        394,
-        400
-      ],
-      "winner_to": 398,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        408,
-        414
-      ],
-      "winner_to": 412,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        424,
-        430
-      ],
-      "winner_to": 428,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        438,
-        444
-      ],
-      "winner_to": 442,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        456,
-        462
-      ],
-      "winner_to": 460,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        470,
-        476
-      ],
-      "winner_to": 474,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        486,
-        492
-      ],
-      "winner_to": 490,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        500,
-        506
-      ],
-      "winner_to": 504,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        265,
-        272
-      ],
-      "winner_to": 266,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        279,
-        286
-      ],
-      "winner_to": 280,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        295,
-        302
-      ],
-      "winner_to": 296,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        309,
-        316
-      ],
-      "winner_to": 310,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        327,
-        334
-      ],
-      "winner_to": 328,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        341,
-        348
-      ],
-      "winner_to": 342,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        357,
-        364
-      ],
-      "winner_to": 358,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        371,
-        378
-      ],
-      "winner_to": 372,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        391,
-        398
-      ],
-      "winner_to": 392,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        405,
-        412
-      ],
-      "winner_to": 406,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        421,
-        428
-      ],
-      "winner_to": 422,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        435,
-        442
-      ],
-      "winner_to": 436,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        453,
-        460
-      ],
-      "winner_to": 454,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        467,
-        474
-      ],
-      "winner_to": 468,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        483,
-        490
-      ],
-      "winner_to": 484,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        497,
-        504
-      ],
-      "winner_to": 498,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        266,
-        280
-      ],
-      "winner_to": 278,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        296,
-        310
-      ],
-      "winner_to": 308,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        328,
-        342
-      ],
-      "winner_to": 340,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        358,
-        372
-      ],
-      "winner_to": 370,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        392,
-        406
-      ],
-      "winner_to": 404,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        422,
-        436
-      ],
-      "winner_to": 434,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        454,
-        468
-      ],
-      "winner_to": 466,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        484,
-        498
-      ],
-      "winner_to": 496,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        263,
-        278
-      ],
-      "winner_to": 264,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        293,
-        308
-      ],
-      "winner_to": 294,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        325,
-        340
-      ],
-      "winner_to": 326,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        355,
-        370
-      ],
-      "winner_to": 356,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        389,
-        404
-      ],
-      "winner_to": 390,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        419,
-        434
-      ],
-      "winner_to": 420,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        451,
-        466
-      ],
-      "winner_to": 452,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        481,
-        496
-      ],
-      "winner_to": 482,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        264,
-        294
-      ],
-      "winner_to": 292,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        326,
-        356
-      ],
-      "winner_to": 354,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        390,
-        420
-      ],
-      "winner_to": 418,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        452,
-        482
-      ],
-      "winner_to": 480,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        261,
-        292
-      ],
-      "winner_to": 262,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        323,
-        354
-      ],
-      "winner_to": 324,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        387,
-        418
-      ],
-      "winner_to": 388,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        449,
-        480
-      ],
-      "winner_to": 450,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        262,
-        324
-      ],
-      "winner_to": 322,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        388,
-        450
-      ],
-      "winner_to": 448,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        259,
-        322
-      ],
-      "winner_to": 260,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        385,
-        448
-      ],
-      "winner_to": 386,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        260,
-        386
-      ],
-      "winner_to": 384,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        257,
-        384
-      ],
-      "winner_to": 258,
-      "loser_to": null
-    },
-    {
-      "seats": [
-        128,
-        258
-      ],
-      "winner_to": null,
-      "loser_to": null
-    }
+    { "seats":[1, 3], "winner_to":2, "loser_to":269 },
+    { "seats":[5, 7], "winner_to":6, "loser_to":271 },
+    { "seats":[9, 11], "winner_to":10, "loser_to":275 },
+    { "seats":[13, 15], "winner_to":14, "loser_to":277 },
+    { "seats":[17, 19], "winner_to":18, "loser_to":283 },
+    { "seats":[21, 23], "winner_to":22, "loser_to":285 },
+    { "seats":[25, 27], "winner_to":26, "loser_to":289 },
+    { "seats":[29, 31], "winner_to":30, "loser_to":291 },
+    { "seats":[33, 35], "winner_to":34, "loser_to":299 },
+    { "seats":[37, 39], "winner_to":38, "loser_to":301 },
+    { "seats":[41, 43], "winner_to":42, "loser_to":305 },
+    { "seats":[45, 47], "winner_to":46, "loser_to":307 },
+    { "seats":[49, 51], "winner_to":50, "loser_to":313 },
+    { "seats":[53, 55], "winner_to":54, "loser_to":315 },
+    { "seats":[57, 59], "winner_to":58, "loser_to":319 },
+    { "seats":[61, 63], "winner_to":62, "loser_to":321 },
+    { "seats":[65, 67], "winner_to":66, "loser_to":331 },
+    { "seats":[69, 71], "winner_to":70, "loser_to":333 },
+    { "seats":[73, 75], "winner_to":74, "loser_to":337 },
+    { "seats":[77, 79], "winner_to":78, "loser_to":339 },
+    { "seats":[81, 83], "winner_to":82, "loser_to":345 },
+    { "seats":[85, 87], "winner_to":86, "loser_to":347 },
+    { "seats":[89, 91], "winner_to":90, "loser_to":351 },
+    { "seats":[93, 95], "winner_to":94, "loser_to":353 },
+    { "seats":[97, 99], "winner_to":98, "loser_to":361 },
+    { "seats":[101, 103], "winner_to":102, "loser_to":363 },
+    { "seats":[105, 107], "winner_to":106, "loser_to":367 },
+    { "seats":[109, 111], "winner_to":110, "loser_to":369 },
+    { "seats":[113, 115], "winner_to":114, "loser_to":375 },
+    { "seats":[117, 119], "winner_to":118, "loser_to":377 },
+    { "seats":[121, 123], "winner_to":122, "loser_to":381 },
+    { "seats":[125, 127], "winner_to":126, "loser_to":383 },
+    { "seats":[129, 131], "winner_to":130, "loser_to":395 },
+    { "seats":[133, 135], "winner_to":134, "loser_to":397 },
+    { "seats":[137, 139], "winner_to":138, "loser_to":401 },
+    { "seats":[141, 143], "winner_to":142, "loser_to":403 },
+    { "seats":[145, 147], "winner_to":146, "loser_to":409 },
+    { "seats":[149, 151], "winner_to":150, "loser_to":411 },
+    { "seats":[153, 155], "winner_to":154, "loser_to":415 },
+    { "seats":[157, 159], "winner_to":158, "loser_to":417 },
+    { "seats":[161, 163], "winner_to":162, "loser_to":425 },
+    { "seats":[165, 167], "winner_to":166, "loser_to":427 },
+    { "seats":[169, 171], "winner_to":170, "loser_to":431 },
+    { "seats":[173, 175], "winner_to":174, "loser_to":433 },
+    { "seats":[177, 179], "winner_to":178, "loser_to":439 },
+    { "seats":[181, 183], "winner_to":182, "loser_to":441 },
+    { "seats":[185, 187], "winner_to":186, "loser_to":445 },
+    { "seats":[189, 191], "winner_to":190, "loser_to":447 },
+    { "seats":[193, 195], "winner_to":194, "loser_to":457 },
+    { "seats":[197, 199], "winner_to":198, "loser_to":459 },
+    { "seats":[201, 203], "winner_to":202, "loser_to":463 },
+    { "seats":[205, 207], "winner_to":206, "loser_to":465 },
+    { "seats":[209, 211], "winner_to":210, "loser_to":471 },
+    { "seats":[213, 215], "winner_to":214, "loser_to":473 },
+    { "seats":[217, 219], "winner_to":218, "loser_to":477 },
+    { "seats":[221, 223], "winner_to":222, "loser_to":479 },
+    { "seats":[225, 227], "winner_to":226, "loser_to":487 },
+    { "seats":[229, 231], "winner_to":230, "loser_to":489 },
+    { "seats":[233, 235], "winner_to":234, "loser_to":493 },
+    { "seats":[237, 239], "winner_to":238, "loser_to":495 },
+    { "seats":[241, 243], "winner_to":242, "loser_to":501 },
+    { "seats":[245, 247], "winner_to":246, "loser_to":503 },
+    { "seats":[249, 251], "winner_to":250, "loser_to":507 },
+    { "seats":[253, 255], "winner_to":254, "loser_to":509 },
+
+    { "seats":[2, 6], "winner_to":4, "loser_to":505 },
+    { "seats":[10, 14], "winner_to":12, "loser_to":499 },
+    { "seats":[18, 22], "winner_to":20, "loser_to":491 },
+    { "seats":[26, 30], "winner_to":28, "loser_to":485 },
+    { "seats":[34, 38], "winner_to":36, "loser_to":475 },
+    { "seats":[42, 46], "winner_to":44, "loser_to":469 },
+    { "seats":[50, 54], "winner_to":52, "loser_to":461 },
+    { "seats":[58, 62], "winner_to":60, "loser_to":455 },
+    { "seats":[66, 70], "winner_to":68, "loser_to":443 },
+    { "seats":[74, 78], "winner_to":76, "loser_to":437 },
+    { "seats":[82, 86], "winner_to":84, "loser_to":429 },
+    { "seats":[90, 94], "winner_to":92, "loser_to":423 },
+    { "seats":[98, 102], "winner_to":100, "loser_to":413 },
+    { "seats":[106, 110], "winner_to":108, "loser_to":407 },
+    { "seats":[114, 118], "winner_to":116, "loser_to":399 },
+    { "seats":[122, 126], "winner_to":124, "loser_to":393 },
+    { "seats":[130, 134], "winner_to":132, "loser_to":379 },
+    { "seats":[138, 142], "winner_to":140, "loser_to":373 },
+    { "seats":[146, 150], "winner_to":148, "loser_to":365 },
+    { "seats":[154, 158], "winner_to":156, "loser_to":359 },
+    { "seats":[162, 166], "winner_to":164, "loser_to":349 },
+    { "seats":[170, 174], "winner_to":172, "loser_to":343 },
+    { "seats":[178, 182], "winner_to":180, "loser_to":335 },
+    { "seats":[186, 190], "winner_to":188, "loser_to":329 },
+    { "seats":[194, 198], "winner_to":196, "loser_to":317 },
+    { "seats":[202, 206], "winner_to":204, "loser_to":311 },
+    { "seats":[210, 214], "winner_to":212, "loser_to":303 },
+    { "seats":[218, 222], "winner_to":220, "loser_to":297 },
+    { "seats":[226, 230], "winner_to":228, "loser_to":287 },
+    { "seats":[234, 238], "winner_to":236, "loser_to":281 },
+    { "seats":[242, 246], "winner_to":244, "loser_to":273 },
+    { "seats":[250, 254], "winner_to":252, "loser_to":267 },
+    { "seats":[269, 271], "winner_to":270, "loser_to":null },
+    { "seats":[275, 277], "winner_to":276, "loser_to":null },
+    { "seats":[283, 285], "winner_to":284, "loser_to":null },
+    { "seats":[289, 291], "winner_to":290, "loser_to":null },
+    { "seats":[299, 301], "winner_to":300, "loser_to":null },
+    { "seats":[305, 307], "winner_to":306, "loser_to":null },
+    { "seats":[313, 315], "winner_to":314, "loser_to":null },
+    { "seats":[319, 321], "winner_to":320, "loser_to":null },
+    { "seats":[331, 333], "winner_to":332, "loser_to":null },
+    { "seats":[337, 339], "winner_to":338, "loser_to":null },
+    { "seats":[345, 347], "winner_to":346, "loser_to":null },
+    { "seats":[351, 353], "winner_to":352, "loser_to":null },
+    { "seats":[361, 363], "winner_to":362, "loser_to":null },
+    { "seats":[367, 369], "winner_to":368, "loser_to":null },
+    { "seats":[375, 377], "winner_to":376, "loser_to":null },
+    { "seats":[381, 383], "winner_to":382, "loser_to":null },
+    { "seats":[395, 397], "winner_to":396, "loser_to":null },
+    { "seats":[401, 403], "winner_to":402, "loser_to":null },
+    { "seats":[409, 411], "winner_to":410, "loser_to":null },
+    { "seats":[415, 417], "winner_to":416, "loser_to":null },
+    { "seats":[425, 427], "winner_to":426, "loser_to":null },
+    { "seats":[431, 433], "winner_to":432, "loser_to":null },
+    { "seats":[439, 441], "winner_to":440, "loser_to":null },
+    { "seats":[445, 447], "winner_to":446, "loser_to":null },
+    { "seats":[457, 459], "winner_to":458, "loser_to":null },
+    { "seats":[463, 465], "winner_to":464, "loser_to":null },
+    { "seats":[471, 473], "winner_to":472, "loser_to":null },
+    { "seats":[477, 479], "winner_to":478, "loser_to":null },
+    { "seats":[487, 489], "winner_to":488, "loser_to":null },
+    { "seats":[493, 495], "winner_to":494, "loser_to":null },
+    { "seats":[501, 503], "winner_to":502, "loser_to":null },
+    { "seats":[507, 509], "winner_to":508, "loser_to":null },
+
+    { "seats":[4, 12], "winner_to":8, "loser_to":265 },
+    { "seats":[20, 28], "winner_to":24, "loser_to":279 },
+    { "seats":[36, 44], "winner_to":40, "loser_to":295 },
+    { "seats":[52, 60], "winner_to":56, "loser_to":309 },
+    { "seats":[68, 76], "winner_to":72, "loser_to":327 },
+    { "seats":[84, 92], "winner_to":88, "loser_to":341 },
+    { "seats":[100, 108], "winner_to":104, "loser_to":357 },
+    { "seats":[116, 124], "winner_to":120, "loser_to":371 },
+    { "seats":[132, 140], "winner_to":136, "loser_to":391 },
+    { "seats":[148, 156], "winner_to":152, "loser_to":405 },
+    { "seats":[164, 172], "winner_to":168, "loser_to":421 },
+    { "seats":[180, 188], "winner_to":184, "loser_to":435 },
+    { "seats":[196, 204], "winner_to":200, "loser_to":453 },
+    { "seats":[212, 220], "winner_to":216, "loser_to":467 },
+    { "seats":[228, 236], "winner_to":232, "loser_to":483 },
+    { "seats":[244, 252], "winner_to":248, "loser_to":497 },
+    { "seats":[267, 270], "winner_to":268, "loser_to":null },
+    { "seats":[273, 276], "winner_to":274, "loser_to":null },
+    { "seats":[281, 284], "winner_to":282, "loser_to":null },
+    { "seats":[287, 290], "winner_to":288, "loser_to":null },
+    { "seats":[297, 300], "winner_to":298, "loser_to":null },
+    { "seats":[303, 306], "winner_to":304, "loser_to":null },
+    { "seats":[311, 314], "winner_to":312, "loser_to":null },
+    { "seats":[317, 320], "winner_to":318, "loser_to":null },
+    { "seats":[329, 332], "winner_to":330, "loser_to":null },
+    { "seats":[335, 338], "winner_to":336, "loser_to":null },
+    { "seats":[343, 346], "winner_to":344, "loser_to":null },
+    { "seats":[349, 352], "winner_to":350, "loser_to":null },
+    { "seats":[359, 362], "winner_to":360, "loser_to":null },
+    { "seats":[365, 368], "winner_to":366, "loser_to":null },
+    { "seats":[373, 376], "winner_to":374, "loser_to":null },
+    { "seats":[379, 382], "winner_to":380, "loser_to":null },
+    { "seats":[393, 396], "winner_to":394, "loser_to":null },
+    { "seats":[399, 402], "winner_to":400, "loser_to":null },
+    { "seats":[407, 410], "winner_to":408, "loser_to":null },
+    { "seats":[413, 416], "winner_to":414, "loser_to":null },
+    { "seats":[423, 426], "winner_to":424, "loser_to":null },
+    { "seats":[429, 432], "winner_to":430, "loser_to":null },
+    { "seats":[437, 440], "winner_to":438, "loser_to":null },
+    { "seats":[443, 446], "winner_to":444, "loser_to":null },
+    { "seats":[455, 458], "winner_to":456, "loser_to":null },
+    { "seats":[461, 464], "winner_to":462, "loser_to":null },
+    { "seats":[469, 472], "winner_to":470, "loser_to":null },
+    { "seats":[475, 478], "winner_to":476, "loser_to":null },
+    { "seats":[485, 488], "winner_to":486, "loser_to":null },
+    { "seats":[491, 494], "winner_to":492, "loser_to":null },
+    { "seats":[499, 502], "winner_to":500, "loser_to":null },
+    { "seats":[505, 508], "winner_to":506, "loser_to":null },
+
+    { "seats":[8, 24], "winner_to":16, "loser_to":481 },
+    { "seats":[40, 56], "winner_to":48, "loser_to":451 },
+    { "seats":[72, 88], "winner_to":80, "loser_to":419 },
+    { "seats":[104, 120], "winner_to":112, "loser_to":389 },
+    { "seats":[136, 152], "winner_to":144, "loser_to":355 },
+    { "seats":[168, 184], "winner_to":176, "loser_to":325 },
+    { "seats":[200, 216], "winner_to":208, "loser_to":293 },
+    { "seats":[232, 248], "winner_to":240, "loser_to":263 },
+    { "seats":[268, 274], "winner_to":272, "loser_to":null },
+    { "seats":[282, 288], "winner_to":286, "loser_to":null },
+    { "seats":[298, 304], "winner_to":302, "loser_to":null },
+    { "seats":[312, 318], "winner_to":316, "loser_to":null },
+    { "seats":[330, 336], "winner_to":334, "loser_to":null },
+    { "seats":[344, 350], "winner_to":348, "loser_to":null },
+    { "seats":[360, 366], "winner_to":364, "loser_to":null },
+    { "seats":[374, 380], "winner_to":378, "loser_to":null },
+    { "seats":[394, 400], "winner_to":398, "loser_to":null },
+    { "seats":[408, 414], "winner_to":412, "loser_to":null },
+    { "seats":[424, 430], "winner_to":428, "loser_to":null },
+    { "seats":[438, 444], "winner_to":442, "loser_to":null },
+    { "seats":[456, 462], "winner_to":460, "loser_to":null },
+    { "seats":[470, 476], "winner_to":474, "loser_to":null },
+    { "seats":[486, 492], "winner_to":490, "loser_to":null },
+    { "seats":[500, 506], "winner_to":504, "loser_to":null },
+
+    { "seats":[16, 48], "winner_to":32, "loser_to":261 },
+    { "seats":[80, 112], "winner_to":96, "loser_to":323 },
+    { "seats":[144, 176], "winner_to":160, "loser_to":387 },
+    { "seats":[208, 240], "winner_to":224, "loser_to":449 },
+    { "seats":[265, 272], "winner_to":266, "loser_to":null },
+    { "seats":[279, 286], "winner_to":280, "loser_to":null },
+    { "seats":[295, 302], "winner_to":296, "loser_to":null },
+    { "seats":[309, 316], "winner_to":310, "loser_to":null },
+    { "seats":[327, 334], "winner_to":328, "loser_to":null },
+    { "seats":[341, 348], "winner_to":342, "loser_to":null },
+    { "seats":[357, 364], "winner_to":358, "loser_to":null },
+    { "seats":[371, 378], "winner_to":372, "loser_to":null },
+    { "seats":[391, 398], "winner_to":392, "loser_to":null },
+    { "seats":[405, 412], "winner_to":406, "loser_to":null },
+    { "seats":[421, 428], "winner_to":422, "loser_to":null },
+    { "seats":[435, 442], "winner_to":436, "loser_to":null },
+    { "seats":[453, 460], "winner_to":454, "loser_to":null },
+    { "seats":[467, 474], "winner_to":468, "loser_to":null },
+    { "seats":[483, 490], "winner_to":484, "loser_to":null },
+    { "seats":[497, 504], "winner_to":498, "loser_to":null },
+
+    { "seats":[32, 96], "winner_to":64, "loser_to":385 },
+    { "seats":[160, 224], "winner_to":192, "loser_to":259 },
+    { "seats":[266, 280], "winner_to":278, "loser_to":null },
+    { "seats":[296, 310], "winner_to":308, "loser_to":null },
+    { "seats":[328, 342], "winner_to":340, "loser_to":null },
+    { "seats":[358, 372], "winner_to":370, "loser_to":null },
+    { "seats":[392, 406], "winner_to":404, "loser_to":null },
+    { "seats":[422, 436], "winner_to":434, "loser_to":null },
+    { "seats":[454, 468], "winner_to":466, "loser_to":null },
+    { "seats":[484, 498], "winner_to":496, "loser_to":null },
+
+    { "seats":[64, 192], "winner_to":128, "loser_to":257 },
+    { "seats":[263, 278], "winner_to":264, "loser_to":null },
+    { "seats":[293, 308], "winner_to":294, "loser_to":null },
+    { "seats":[325, 340], "winner_to":326, "loser_to":null },
+    { "seats":[355, 370], "winner_to":356, "loser_to":null },
+    { "seats":[389, 404], "winner_to":390, "loser_to":null },
+    { "seats":[419, 434], "winner_to":420, "loser_to":null },
+    { "seats":[451, 466], "winner_to":452, "loser_to":null },
+    { "seats":[481, 496], "winner_to":482, "loser_to":null },
+
+    { "seats":[264, 294], "winner_to":292, "loser_to":null },
+    { "seats":[326, 356], "winner_to":354, "loser_to":null },
+    { "seats":[390, 420], "winner_to":418, "loser_to":null },
+    { "seats":[452, 482], "winner_to":480, "loser_to":null },
+
+    { "seats":[261, 292], "winner_to":262, "loser_to":null },
+    { "seats":[323, 354], "winner_to":324, "loser_to":null },
+    { "seats":[387, 418], "winner_to":388, "loser_to":null },
+    { "seats":[449, 480], "winner_to":450, "loser_to":null },
+
+    { "seats":[262, 324], "winner_to":322, "loser_to":null },
+    { "seats":[388, 450], "winner_to":448, "loser_to":null },
+
+    { "seats":[259, 322], "winner_to":260, "loser_to":null },
+    { "seats":[385, 448], "winner_to":386, "loser_to":null },
+
+    { "seats":[260, 386], "winner_to":384, "loser_to":null },
+
+    { "seats":[257, 384], "winner_to":258, "loser_to":null },
+
+    { "seats":[128, 258], "winner_to":null, "loser_to":null }
   ],
   "seats": [
     {
